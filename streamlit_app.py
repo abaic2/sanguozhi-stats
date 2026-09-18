@@ -40,19 +40,20 @@ def hbar(pairs, color="#a67c00", height=420, fontsize=12):
     }
 
 
-TABS = ["壹 · 全书概览", "贰 · 字词频率", "叁 · 人物与传记"]
+TABS = ["壹 · 全书概览", "贰 · 字词频率", "叁 · 人物与传记", "肆 · 全量人物"]
 page = st.radio("章节", TABS, horizontal=True, label_visibility="collapsed")
 
 # ============ 壹 概览 ============
 if page == TABS[0]:
     m = S["meta"]
-    c = st.columns(6)
+    c = st.columns(7)
     c[0].metric("汉字总数", FMT(m["totalChars"]), help="全文精确计数（不含标点）")
     c[1].metric("不同单字", FMT(m["uniqChars"]), help="字种数")
     c[2].metric("仅出现一次", FMT(m["hapax"]), help="生僻字/专名用字")
     c[3].metric("总卷数", "65", help="魏30 · 蜀15 · 吴20")
     c[4].metric("句子总数", FMT(m["sentCount"]), help="按句读切分")
     c[5].metric("平均句长", m["avgSent"], help="字 / 句")
+    c[6].metric("自动提取人物", FMT(S["personStats"]["total"]), help="见「肆 · 全量人物」")
 
     left, right = st.columns([1, 2])
     with left:
@@ -241,9 +242,90 @@ if page == TABS[2]:
     st.dataframe(view.sort_values("卷次"), hide_index=True, use_container_width=True,
                  column_config={"卷次": st.column_config.NumberColumn(format="卷%d")})
 
+# ============ 肆 全量人物 ============
+if page == TABS[3]:
+    P = S["persons"]
+    PS = S["personStats"]
+    c = st.columns(4)
+    c[0].metric("自动提取人物", FMT(PS["total"]), help="按列传起首笔法（某某字某某 / 姓X讳X字Y / 某某，某地人也）识别")
+    c[1].metric("见「字」记载", FMT(PS["withZi"]), help=f"占 {PS['withZi'] * 100 // PS['total']}%")
+    c[2].metric("魏 / 蜀 / 吴", " · ".join(FMT(v) for _, v in PS["byBook"]))
+    c[3].metric("第一大姓", f"{PS['surnames'][0][0]} 氏", help=f"{PS['surnames'][0][1]} 人")
+
+    lft, rgt = st.columns(2)
+    with lft:
+        st.subheader("姓氏分布 Top 18")
+        st_echarts({
+            "backgroundColor": "transparent",
+            "tooltip": {"trigger": "axis"},
+            "grid": {"left": 50, "right": 20, "top": 20, "bottom": 70},
+            "xAxis": {"type": "category", "data": [x[0] for x in PS["surnames"]],
+                      "axisLabel": {"interval": 0, "rotate": 40}, **AXIS},
+            "yAxis": {"type": "value", "name": "人数", **AXIS},
+            "series": [{"type": "bar", "barWidth": "62%", "data": [x[1] for x in PS["surnames"]],
+                        "itemStyle": {"color": "#a67c00", "borderRadius": [6, 6, 0, 0]},
+                        "label": {"show": True, "position": "top", "fontSize": 11}}],
+        }, height="440px")
+    with rgt:
+        st.subheader("分书人物数")
+        st_echarts({
+            "backgroundColor": "transparent",
+            "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
+            "legend": {"bottom": 0},
+            "grid": {"left": 50, "right": 20, "top": 20, "bottom": 50},
+            "xAxis": {"type": "category", "data": [x[0] + "书" for x in PS["byBook"]], **AXIS},
+            "yAxis": {"type": "value", "name": "人数", **AXIS},
+            "series": [
+                {"name": "提取人物", "type": "bar", "barWidth": 44, "label": {"show": True, "position": "top"},
+                 "data": [{"value": x[1], "itemStyle": {"color": BOOK_COLOR[x[0]]}} for x in PS["byBook"]]},
+                {"name": "其中见「字」", "type": "line", "symbol": "circle", "symbolSize": 8,
+                 "lineStyle": {"color": "#6b5f4e"}, "itemStyle": {"color": "#6b5f4e"},
+                 "data": [sum(1 for p in P if p["book"] == b and p["zi"]) for b, _ in PS["byBook"]]},
+            ],
+        }, height="440px")
+
+    st.subheader("出现频次 Top 30 人物")
+    top = P[:30]
+    tip = json.dumps([{"n": p["name"], "z": p["zi"], "j": p["juan"], "t": p["title"],
+                       "c": p["count"], "a": bool(p["approx"])} for p in top], ensure_ascii=False)
+    st_echarts({
+        "backgroundColor": "transparent",
+        "tooltip": {"trigger": "axis", "formatter":
+                    "function(p){var d=" + tip + "[p[0].dataIndex];"
+                    "return '<b>'+d.n+'</b>'+(d.z?'，字'+d.z:'')+'<br>出现 '+d.c+' 次'"
+                    "+(d.a?'（含本传内单名称呼）':'')+'<br>卷'+d.j+'《'+d.t+'》';}"},
+        "grid": {"left": 90, "right": 70, "top": 10, "bottom": 30},
+        "xAxis": {"type": "value", **AXIS},
+        "yAxis": {"type": "category", "inverse": True,
+                  "data": [p["name"] + ("*" if p["approx"] else "") for p in top], **AXIS},
+        "series": [{"type": "bar", "barWidth": 13,
+                    "data": [{"value": p["count"], "itemStyle": {"color": BOOK_COLOR[p["book"]],
+                                                                "borderRadius": [0, 6, 6, 0]}} for p in top],
+                    "label": {"show": True, "position": "right", "fontSize": 11}}],
+    }, height="620px")
+    st.caption("姓名带 * 者全文几乎只以单名称呼（如「植」「恢」），计数取其本传内该字出现次数，为近似值。")
+
+    st.subheader(f"人物索引（{FMT(PS['total'])} 人）")
+    pdf = pd.DataFrame(P)[["name", "zi", "book", "juan", "title", "count", "approx"]]
+    pdf.columns = ["姓名", "字", "国别", "卷次", "本传篇名", "出现次数", "本传单名计数"]
+    q1, q2 = st.columns([2, 1])
+    kw = q1.text_input("搜索", placeholder="姓名 / 字 / 传记篇名", label_visibility="collapsed")
+    bk = q2.multiselect("国别", ["魏", "蜀", "吴"], ["魏", "蜀", "吴"])
+    pv = pdf[pdf["国别"].isin(bk)]
+    if kw:
+        mask = pv["姓名"].str.contains(kw, na=False) | pv["字"].str.contains(kw, na=False) \
+            | pv["本传篇名"].str.contains(kw, na=False)
+        pv = pv[mask]
+    st.caption(f"共 {len(pv)} 人")
+    st.dataframe(pv.sort_values("出现次数", ascending=False), hide_index=True,
+                 use_container_width=True, height=560,
+                 column_config={"卷次": st.column_config.NumberColumn(format="卷%d"),
+                                "本传单名计数": st.column_config.CheckboxColumn(width="small")})
+
 st.divider()
 st.caption(
     "数据来源：陈寿《三国志》白文全文（六十五卷，不含裴松之注），语料取自 GitHub 开源仓库 "
     "program-in-chinese/npm-chinese-history-classics-sanguozhi；统计脚本对简繁混排文本做常用字归一后逐字计数，"
-    "多字词条为精确子串匹配。「立传人物类型」「大事年表」为整理样本。"
+    "多字词条为精确子串匹配。「立传人物类型」「大事年表」为整理样本；"
+    "「肆 · 全量人物」由脚本按列传起首笔法自动识别，未经人工校勘，或有讹漏。"
 )

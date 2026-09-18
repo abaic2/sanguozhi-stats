@@ -6497,6 +6497,2764 @@
    ]
   ]
  ],
+ "persons": [
+  {
+   "name": "孙权",
+   "zi": "仲谋",
+   "juan": 47,
+   "book": "吴",
+   "title": "吴主传",
+   "count": 164,
+   "approx": false
+  },
+  {
+   "name": "刘备",
+   "zi": "玄德",
+   "juan": 32,
+   "book": "蜀",
+   "title": "先主传",
+   "count": 124,
+   "approx": false
+  },
+  {
+   "name": "袁绍",
+   "zi": "本初",
+   "juan": 6,
+   "book": "魏",
+   "title": "董二袁刘传",
+   "count": 114,
+   "approx": false
+  },
+  {
+   "name": "诸葛亮",
+   "zi": "孔明",
+   "juan": 35,
+   "book": "蜀",
+   "title": "诸葛亮传",
+   "count": 104,
+   "approx": false
+  },
+  {
+   "name": "关羽",
+   "zi": "云长",
+   "juan": 36,
+   "book": "蜀",
+   "title": "关张马黄赵传",
+   "count": 100,
+   "approx": false
+  },
+  {
+   "name": "刘表",
+   "zi": "景升",
+   "juan": 6,
+   "book": "魏",
+   "title": "董二袁刘传",
+   "count": 78,
+   "approx": false
+  },
+  {
+   "name": "袁术",
+   "zi": "公路",
+   "juan": 6,
+   "book": "魏",
+   "title": "董二袁刘传",
+   "count": 57,
+   "approx": false
+  },
+  {
+   "name": "吕布",
+   "zi": "奉先",
+   "juan": 7,
+   "book": "魏",
+   "title": "吕布臧洪传",
+   "count": 57,
+   "approx": false
+  },
+  {
+   "name": "董卓",
+   "zi": "仲颖",
+   "juan": 6,
+   "book": "魏",
+   "title": "董二袁刘传",
+   "count": 54,
+   "approx": false
+  },
+  {
+   "name": "陆逊",
+   "zi": "伯言",
+   "juan": 58,
+   "book": "吴",
+   "title": "陆逊传",
+   "count": 52,
+   "approx": false
+  },
+  {
+   "name": "诸葛恪",
+   "zi": "元逊",
+   "juan": 64,
+   "book": "吴",
+   "title": "诸葛滕二孙濮阳传",
+   "count": 52,
+   "approx": false
+  },
+  {
+   "name": "姜维",
+   "zi": "伯约",
+   "juan": 44,
+   "book": "蜀",
+   "title": "蒋琬费祎姜维传",
+   "count": 50,
+   "approx": false
+  },
+  {
+   "name": "曹仁",
+   "zi": "子孝",
+   "juan": 9,
+   "book": "魏",
+   "title": "诸夏侯曹传",
+   "count": 49,
+   "approx": false
+  },
+  {
+   "name": "刘璋",
+   "zi": "季玉",
+   "juan": 31,
+   "book": "蜀",
+   "title": "刘二牧传",
+   "count": 43,
+   "approx": false
+  },
+  {
+   "name": "孙策",
+   "zi": "伯符",
+   "juan": 46,
+   "book": "吴",
+   "title": "孙破虏讨逆传",
+   "count": 41,
+   "approx": false
+  },
+  {
+   "name": "张鲁",
+   "zi": "公祺",
+   "juan": 8,
+   "book": "魏",
+   "title": "二公孙陶四张传",
+   "count": 39,
+   "approx": false
+  },
+  {
+   "name": "邓艾",
+   "zi": "士载",
+   "juan": 28,
+   "book": "魏",
+   "title": "王毌丘诸葛邓锺传",
+   "count": 38,
+   "approx": false
+  },
+  {
+   "name": "诸葛诞",
+   "zi": "公休",
+   "juan": 28,
+   "book": "魏",
+   "title": "王毌丘诸葛邓锺传",
+   "count": 37,
+   "approx": false
+  },
+  {
+   "name": "曹爽",
+   "zi": "昭伯",
+   "juan": 9,
+   "book": "魏",
+   "title": "诸夏侯曹传",
+   "count": 36,
+   "approx": false
+  },
+  {
+   "name": "张辽",
+   "zi": "文远",
+   "juan": 17,
+   "book": "魏",
+   "title": "张乐于张徐传",
+   "count": 36,
+   "approx": false
+  },
+  {
+   "name": "马超",
+   "zi": "孟起",
+   "juan": 36,
+   "book": "蜀",
+   "title": "关张马黄赵传",
+   "count": 36,
+   "approx": false
+  },
+  {
+   "name": "张郃",
+   "zi": "俊乂",
+   "juan": 17,
+   "book": "魏",
+   "title": "张乐于张徐传",
+   "count": 35,
+   "approx": false
+  },
+  {
+   "name": "周瑜",
+   "zi": "仲异",
+   "juan": 51,
+   "book": "吴",
+   "title": "宗室传",
+   "count": 35,
+   "approx": false
+  },
+  {
+   "name": "吕蒙",
+   "zi": "子明",
+   "juan": 54,
+   "book": "吴",
+   "title": "周瑜鲁肃吕蒙传",
+   "count": 34,
+   "approx": false
+  },
+  {
+   "name": "曹休",
+   "zi": "文烈",
+   "juan": 9,
+   "book": "魏",
+   "title": "诸夏侯曹传",
+   "count": 33,
+   "approx": false
+  },
+  {
+   "name": "蒋琬",
+   "zi": "公琰",
+   "juan": 44,
+   "book": "蜀",
+   "title": "蒋琬费祎姜维传",
+   "count": 33,
+   "approx": false
+  },
+  {
+   "name": "费祎",
+   "zi": "文伟",
+   "juan": 44,
+   "book": "蜀",
+   "title": "蒋琬费祎姜维传",
+   "count": 33,
+   "approx": false
+  },
+  {
+   "name": "全琮",
+   "zi": "子璜",
+   "juan": 60,
+   "book": "吴",
+   "title": "贺全吕周锺离传",
+   "count": 32,
+   "approx": false
+  },
+  {
+   "name": "夏侯渊",
+   "zi": "妙才",
+   "juan": 9,
+   "book": "魏",
+   "title": "诸夏侯曹传",
+   "count": 31,
+   "approx": false
+  },
+  {
+   "name": "钟会",
+   "zi": "士季",
+   "juan": 28,
+   "book": "魏",
+   "title": "王毌丘诸葛邓锺传",
+   "count": 31,
+   "approx": false
+  },
+  {
+   "name": "朱然",
+   "zi": "义封",
+   "juan": 56,
+   "book": "吴",
+   "title": "朱治朱然吕范朱桓传",
+   "count": 31,
+   "approx": false
+  },
+  {
+   "name": "钟繇",
+   "zi": "元常",
+   "juan": 13,
+   "book": "魏",
+   "title": "锺繇华歆王朗传",
+   "count": 30,
+   "approx": false
+  },
+  {
+   "name": "张飞",
+   "zi": "益德",
+   "juan": 36,
+   "book": "蜀",
+   "title": "关张马黄赵传",
+   "count": 30,
+   "approx": false
+  },
+  {
+   "name": "曹真",
+   "zi": "子丹",
+   "juan": 9,
+   "book": "魏",
+   "title": "诸夏侯曹传",
+   "count": 29,
+   "approx": false
+  },
+  {
+   "name": "张昭",
+   "zi": "子布",
+   "juan": 52,
+   "book": "吴",
+   "title": "张顾诸葛步传",
+   "count": 29,
+   "approx": false
+  },
+  {
+   "name": "陶谦",
+   "zi": "恭祖",
+   "juan": 8,
+   "book": "魏",
+   "title": "二公孙陶四张传",
+   "count": 28,
+   "approx": false
+  },
+  {
+   "name": "于禁",
+   "zi": "文则",
+   "juan": 17,
+   "book": "魏",
+   "title": "张乐于张徐传",
+   "count": 28,
+   "approx": false
+  },
+  {
+   "name": "曹操",
+   "zi": "孟德",
+   "juan": 1,
+   "book": "魏",
+   "title": "武帝纪",
+   "count": 26,
+   "approx": false
+  },
+  {
+   "name": "毌丘俭",
+   "zi": "仲恭",
+   "juan": 28,
+   "book": "魏",
+   "title": "王毌丘诸葛邓锺传",
+   "count": 26,
+   "approx": false
+  },
+  {
+   "name": "荀彧",
+   "zi": "文若",
+   "juan": 10,
+   "book": "魏",
+   "title": "荀彧荀攸贾诩传",
+   "count": 25,
+   "approx": false
+  },
+  {
+   "name": "孙皓",
+   "zi": "元宗",
+   "juan": 48,
+   "book": "吴",
+   "title": "三嗣主传",
+   "count": 25,
+   "approx": false
+  },
+  {
+   "name": "诸葛瑾",
+   "zi": "子瑜",
+   "juan": 52,
+   "book": "吴",
+   "title": "张顾诸葛步传",
+   "count": 25,
+   "approx": false
+  },
+  {
+   "name": "徐晃",
+   "zi": "公明",
+   "juan": 17,
+   "book": "魏",
+   "title": "张乐于张徐传",
+   "count": 24,
+   "approx": false
+  },
+  {
+   "name": "吕岱",
+   "zi": "定公",
+   "juan": 60,
+   "book": "吴",
+   "title": "贺全吕周锺离传",
+   "count": 23,
+   "approx": false
+  },
+  {
+   "name": "曹植",
+   "zi": "子建",
+   "juan": 19,
+   "book": "魏",
+   "title": "任城陈萧王传",
+   "count": 23,
+   "approx": true
+  },
+  {
+   "name": "公孙瓒",
+   "zi": "伯珪",
+   "juan": 8,
+   "book": "魏",
+   "title": "二公孙陶四张传",
+   "count": 22,
+   "approx": false
+  },
+  {
+   "name": "鲁肃",
+   "zi": "子雍",
+   "juan": 13,
+   "book": "魏",
+   "title": "锺繇华歆王朗传",
+   "count": 22,
+   "approx": false
+  },
+  {
+   "name": "曹洪",
+   "zi": "子廉",
+   "juan": 9,
+   "book": "魏",
+   "title": "诸夏侯曹传",
+   "count": 21,
+   "approx": false
+  },
+  {
+   "name": "袁尚",
+   "zi": "伯仁",
+   "juan": 9,
+   "book": "魏",
+   "title": "诸夏侯曹传",
+   "count": 21,
+   "approx": false
+  },
+  {
+   "name": "孙峻",
+   "zi": "子安",
+   "juan": 20,
+   "book": "魏",
+   "title": "武文世王公传",
+   "count": 21,
+   "approx": false
+  },
+  {
+   "name": "李恢",
+   "zi": "德昂",
+   "juan": 43,
+   "book": "蜀",
+   "title": "黄李吕马王张传",
+   "count": 21,
+   "approx": true
+  },
+  {
+   "name": "法正",
+   "zi": "孝直",
+   "juan": 37,
+   "book": "蜀",
+   "title": "庞统法正传",
+   "count": 20,
+   "approx": false
+  },
+  {
+   "name": "袁谭",
+   "zi": "子默",
+   "juan": 52,
+   "book": "吴",
+   "title": "张顾诸葛步传",
+   "count": 20,
+   "approx": false
+  },
+  {
+   "name": "夏侯惇",
+   "zi": "元让",
+   "juan": 9,
+   "book": "魏",
+   "title": "诸夏侯曹传",
+   "count": 19,
+   "approx": false
+  },
+  {
+   "name": "王凌",
+   "zi": "彦云",
+   "juan": 28,
+   "book": "魏",
+   "title": "王毌丘诸葛邓锺传",
+   "count": 19,
+   "approx": false
+  },
+  {
+   "name": "孙休",
+   "zi": "子烈",
+   "juan": 48,
+   "book": "吴",
+   "title": "三嗣主传",
+   "count": 19,
+   "approx": false
+  },
+  {
+   "name": "刘繇",
+   "zi": "正礼",
+   "juan": 49,
+   "book": "吴",
+   "title": "刘繇太史慈士燮传",
+   "count": 19,
+   "approx": false
+  },
+  {
+   "name": "步骘",
+   "zi": "子山",
+   "juan": 52,
+   "book": "吴",
+   "title": "张顾诸葛步传",
+   "count": 19,
+   "approx": false
+  },
+  {
+   "name": "荀攸",
+   "zi": "公达",
+   "juan": 10,
+   "book": "魏",
+   "title": "荀彧荀攸贾诩传",
+   "count": 18,
+   "approx": false
+  },
+  {
+   "name": "张邈",
+   "zi": "孟卓",
+   "juan": 7,
+   "book": "魏",
+   "title": "吕布臧洪传",
+   "count": 17,
+   "approx": false
+  },
+  {
+   "name": "华歆",
+   "zi": "子鱼",
+   "juan": 13,
+   "book": "魏",
+   "title": "锺繇华歆王朗传",
+   "count": 17,
+   "approx": false
+  },
+  {
+   "name": "乐进",
+   "zi": "文谦",
+   "juan": 17,
+   "book": "魏",
+   "title": "张乐于张徐传",
+   "count": 17,
+   "approx": false
+  },
+  {
+   "name": "潘璋",
+   "zi": "文珪",
+   "juan": 55,
+   "book": "吴",
+   "title": "程黄韩蒋周陈董甘凌徐潘丁传",
+   "count": 17,
+   "approx": false
+  },
+  {
+   "name": "吕范",
+   "zi": "子衡",
+   "juan": 56,
+   "book": "吴",
+   "title": "朱治朱然吕范朱桓传",
+   "count": 17,
+   "approx": false
+  },
+  {
+   "name": "糜竺",
+   "zi": "子仲",
+   "juan": 38,
+   "book": "蜀",
+   "title": "许麋孙简伊秦传",
+   "count": 16,
+   "approx": true
+  },
+  {
+   "name": "李严",
+   "zi": "正方",
+   "juan": 40,
+   "book": "蜀",
+   "title": "刘彭廖李刘魏杨传",
+   "count": 16,
+   "approx": false
+  },
+  {
+   "name": "程普",
+   "zi": "德谋",
+   "juan": 55,
+   "book": "吴",
+   "title": "程黄韩蒋周陈董甘凌徐潘丁传",
+   "count": 16,
+   "approx": false
+  },
+  {
+   "name": "滕胤",
+   "zi": "敬宗",
+   "juan": 61,
+   "book": "吴",
+   "title": "潘濬陆凯传",
+   "count": 16,
+   "approx": false
+  },
+  {
+   "name": "夏侯尚",
+   "zi": "伯仁",
+   "juan": 9,
+   "book": "魏",
+   "title": "诸夏侯曹传",
+   "count": 15,
+   "approx": false
+  },
+  {
+   "name": "蒋济",
+   "zi": "子通",
+   "juan": 14,
+   "book": "魏",
+   "title": "程郭董刘蒋刘传",
+   "count": 15,
+   "approx": false
+  },
+  {
+   "name": "陈群",
+   "zi": "长文",
+   "juan": 22,
+   "book": "魏",
+   "title": "桓二陈徐卫卢传",
+   "count": 15,
+   "approx": false
+  },
+  {
+   "name": "郭淮",
+   "zi": "伯济",
+   "juan": 26,
+   "book": "魏",
+   "title": "满田牵郭传",
+   "count": 15,
+   "approx": false
+  },
+  {
+   "name": "王昶",
+   "zi": "文舒",
+   "juan": 27,
+   "book": "魏",
+   "title": "徐胡二王传",
+   "count": 15,
+   "approx": false
+  },
+  {
+   "name": "潘濬",
+   "zi": "承明",
+   "juan": 45,
+   "book": "蜀",
+   "title": "邓张宗杨传",
+   "count": 15,
+   "approx": false
+  },
+  {
+   "name": "甘宁",
+   "zi": "兴霸",
+   "juan": 55,
+   "book": "吴",
+   "title": "程黄韩蒋周陈董甘凌徐潘丁传",
+   "count": 15,
+   "approx": false
+  },
+  {
+   "name": "朱异",
+   "zi": "季文",
+   "juan": 56,
+   "book": "吴",
+   "title": "朱治朱然吕范朱桓传",
+   "count": 15,
+   "approx": false
+  },
+  {
+   "name": "程昱",
+   "zi": "仲德",
+   "juan": 14,
+   "book": "魏",
+   "title": "程郭董刘蒋刘传",
+   "count": 14,
+   "approx": false
+  },
+  {
+   "name": "孙坚",
+   "zi": "文台",
+   "juan": 46,
+   "book": "吴",
+   "title": "孙破虏讨逆传",
+   "count": 14,
+   "approx": false
+  },
+  {
+   "name": "孙亮",
+   "zi": "子明",
+   "juan": 48,
+   "book": "吴",
+   "title": "三嗣主传",
+   "count": 14,
+   "approx": false
+  },
+  {
+   "name": "孙霸",
+   "zi": "子威",
+   "juan": 59,
+   "book": "吴",
+   "title": "吴主五子传",
+   "count": 14,
+   "approx": true
+  },
+  {
+   "name": "王基",
+   "zi": "伯舆",
+   "juan": 27,
+   "book": "魏",
+   "title": "徐胡二王传",
+   "count": 13,
+   "approx": false
+  },
+  {
+   "name": "许靖",
+   "zi": "文休",
+   "juan": 38,
+   "book": "蜀",
+   "title": "许麋孙简伊秦传",
+   "count": 13,
+   "approx": false
+  },
+  {
+   "name": "魏延",
+   "zi": "文长",
+   "juan": 40,
+   "book": "蜀",
+   "title": "刘彭廖李刘魏杨传",
+   "count": 13,
+   "approx": false
+  },
+  {
+   "name": "黄权",
+   "zi": "公衡",
+   "juan": 43,
+   "book": "蜀",
+   "title": "黄李吕马王张传",
+   "count": 13,
+   "approx": false
+  },
+  {
+   "name": "丁奉",
+   "zi": "承渊",
+   "juan": 55,
+   "book": "吴",
+   "title": "程黄韩蒋周陈董甘凌徐潘丁传",
+   "count": 13,
+   "approx": false
+  },
+  {
+   "name": "张温",
+   "zi": "惠恕",
+   "juan": 57,
+   "book": "吴",
+   "title": "虞陆张骆陆吾朱传",
+   "count": 13,
+   "approx": false
+  },
+  {
+   "name": "孙奋",
+   "zi": "子扬",
+   "juan": 59,
+   "book": "吴",
+   "title": "吴主五子传",
+   "count": 13,
+   "approx": true
+  },
+  {
+   "name": "张杨",
+   "zi": "稚叔",
+   "juan": 8,
+   "book": "魏",
+   "title": "二公孙陶四张传",
+   "count": 12,
+   "approx": false
+  },
+  {
+   "name": "郭嘉",
+   "zi": "奉孝",
+   "juan": 14,
+   "book": "魏",
+   "title": "程郭董刘蒋刘传",
+   "count": 12,
+   "approx": false
+  },
+  {
+   "name": "李典",
+   "zi": "曼成",
+   "juan": 18,
+   "book": "魏",
+   "title": "二李臧文吕许典二庞阎传",
+   "count": 12,
+   "approx": false
+  },
+  {
+   "name": "臧霸",
+   "zi": "宣高",
+   "juan": 18,
+   "book": "魏",
+   "title": "二李臧文吕许典二庞阎传",
+   "count": 12,
+   "approx": false
+  },
+  {
+   "name": "辛毗",
+   "zi": "佐治",
+   "juan": 25,
+   "book": "魏",
+   "title": "辛毗杨阜高堂隆传",
+   "count": 12,
+   "approx": false
+  },
+  {
+   "name": "田豫",
+   "zi": "国让",
+   "juan": 26,
+   "book": "魏",
+   "title": "满田牵郭传",
+   "count": 12,
+   "approx": false
+  },
+  {
+   "name": "邓芝",
+   "zi": "伯苗",
+   "juan": 45,
+   "book": "蜀",
+   "title": "邓张宗杨传",
+   "count": 12,
+   "approx": false
+  },
+  {
+   "name": "董承",
+   "zi": "仲嗣",
+   "juan": 52,
+   "book": "吴",
+   "title": "张顾诸葛步传",
+   "count": 12,
+   "approx": false
+  },
+  {
+   "name": "郑玄",
+   "zi": "太初",
+   "juan": 9,
+   "book": "魏",
+   "title": "诸夏侯曹传",
+   "count": 11,
+   "approx": false
+  },
+  {
+   "name": "贾诩",
+   "zi": "文和",
+   "juan": 10,
+   "book": "魏",
+   "title": "荀彧荀攸贾诩传",
+   "count": 11,
+   "approx": false
+  },
+  {
+   "name": "凌统",
+   "zi": "公绩",
+   "juan": 55,
+   "book": "吴",
+   "title": "程黄韩蒋周陈董甘凌徐潘丁传",
+   "count": 11,
+   "approx": false
+  },
+  {
+   "name": "江表",
+   "zi": "文奥",
+   "juan": 55,
+   "book": "吴",
+   "title": "程黄韩蒋周陈董甘凌徐潘丁传",
+   "count": 11,
+   "approx": false
+  },
+  {
+   "name": "朱据",
+   "zi": "子据",
+   "juan": 57,
+   "book": "吴",
+   "title": "虞陆张骆陆吾朱传",
+   "count": 11,
+   "approx": false
+  },
+  {
+   "name": "臧洪",
+   "zi": "子源",
+   "juan": 7,
+   "book": "魏",
+   "title": "吕布臧洪传",
+   "count": 10,
+   "approx": false
+  },
+  {
+   "name": "侯植",
+   "zi": "子建",
+   "juan": 19,
+   "book": "魏",
+   "title": "任城陈萧王传",
+   "count": 10,
+   "approx": false
+  },
+  {
+   "name": "满宠",
+   "zi": "伯宁",
+   "juan": 26,
+   "book": "魏",
+   "title": "满田牵郭传",
+   "count": 10,
+   "approx": false
+  },
+  {
+   "name": "刘永",
+   "zi": "公寿",
+   "juan": 34,
+   "book": "蜀",
+   "title": "二主妃子传",
+   "count": 10,
+   "approx": true
+  },
+  {
+   "name": "庞统",
+   "zi": "士元",
+   "juan": 37,
+   "book": "蜀",
+   "title": "庞统法正传",
+   "count": 10,
+   "approx": false
+  },
+  {
+   "name": "马谡",
+   "zi": "幼常",
+   "juan": 39,
+   "book": "蜀",
+   "title": "董刘马陈董吕传",
+   "count": 10,
+   "approx": false
+  },
+  {
+   "name": "顾雍",
+   "zi": "元叹",
+   "juan": 52,
+   "book": "吴",
+   "title": "张顾诸葛步传",
+   "count": 10,
+   "approx": false
+  },
+  {
+   "name": "华覈",
+   "zi": "永先",
+   "juan": 65,
+   "book": "吴",
+   "title": "王楼贺韦华传",
+   "count": 10,
+   "approx": false
+  },
+  {
+   "name": "孔明",
+   "zi": "",
+   "juan": 17,
+   "book": "魏",
+   "title": "张乐于张徐传",
+   "count": 9,
+   "approx": false
+  },
+  {
+   "name": "高柔",
+   "zi": "文惠",
+   "juan": 24,
+   "book": "魏",
+   "title": "韩崔高孙王传",
+   "count": 9,
+   "approx": false
+  },
+  {
+   "name": "祖至",
+   "zi": "",
+   "juan": 24,
+   "book": "魏",
+   "title": "韩崔高孙王传",
+   "count": 9,
+   "approx": false
+  },
+  {
+   "name": "赵云",
+   "zi": "子龙",
+   "juan": 36,
+   "book": "蜀",
+   "title": "关张马黄赵传",
+   "count": 9,
+   "approx": false
+  },
+  {
+   "name": "张裔",
+   "zi": "君嗣",
+   "juan": 41,
+   "book": "蜀",
+   "title": "霍王向张杨费传",
+   "count": 9,
+   "approx": false
+  },
+  {
+   "name": "廖化",
+   "zi": "元俭",
+   "juan": 45,
+   "book": "蜀",
+   "title": "邓张宗杨传",
+   "count": 9,
+   "approx": false
+  },
+  {
+   "name": "张休",
+   "zi": "叔嗣",
+   "juan": 52,
+   "book": "吴",
+   "title": "张顾诸葛步传",
+   "count": 9,
+   "approx": false
+  },
+  {
+   "name": "张承",
+   "zi": "子直",
+   "juan": 52,
+   "book": "吴",
+   "title": "张顾诸葛步传",
+   "count": 9,
+   "approx": false
+  },
+  {
+   "name": "徐盛",
+   "zi": "文向",
+   "juan": 55,
+   "book": "吴",
+   "title": "程黄韩蒋周陈董甘凌徐潘丁传",
+   "count": 9,
+   "approx": false
+  },
+  {
+   "name": "陆凯",
+   "zi": "敬风",
+   "juan": 61,
+   "book": "吴",
+   "title": "潘濬陆凯传",
+   "count": 9,
+   "approx": false
+  },
+  {
+   "name": "孙綝",
+   "zi": "子通",
+   "juan": 64,
+   "book": "吴",
+   "title": "诸葛滕二孙濮阳传",
+   "count": 9,
+   "approx": false
+  },
+  {
+   "name": "田畴",
+   "zi": "子泰",
+   "juan": 11,
+   "book": "魏",
+   "title": "袁张凉国田王邴管传",
+   "count": 8,
+   "approx": false
+  },
+  {
+   "name": "管宁",
+   "zi": "幼安",
+   "juan": 11,
+   "book": "魏",
+   "title": "袁张凉国田王邴管传",
+   "count": 8,
+   "approx": false
+  },
+  {
+   "name": "杨仪",
+   "zi": "",
+   "juan": 11,
+   "book": "魏",
+   "title": "袁张凉国田王邴管传",
+   "count": 8,
+   "approx": false
+  },
+  {
+   "name": "崔琰",
+   "zi": "季珪",
+   "juan": 12,
+   "book": "魏",
+   "title": "崔毛徐何邢鲍司马传",
+   "count": 8,
+   "approx": false
+  },
+  {
+   "name": "卢毓",
+   "zi": "稚叔",
+   "juan": 13,
+   "book": "魏",
+   "title": "锺繇华歆王朗传",
+   "count": 8,
+   "approx": false
+  },
+  {
+   "name": "董昭",
+   "zi": "公仁",
+   "juan": 14,
+   "book": "魏",
+   "title": "程郭董刘蒋刘传",
+   "count": 8,
+   "approx": false
+  },
+  {
+   "name": "孙礼",
+   "zi": "德达",
+   "juan": 24,
+   "book": "魏",
+   "title": "韩崔高孙王传",
+   "count": 8,
+   "approx": false
+  },
+  {
+   "name": "刘禅",
+   "zi": "公嗣",
+   "juan": 33,
+   "book": "蜀",
+   "title": "后主传",
+   "count": 8,
+   "approx": false
+  },
+  {
+   "name": "诸葛瞻",
+   "zi": "思远",
+   "juan": 35,
+   "book": "蜀",
+   "title": "诸葛亮传",
+   "count": 8,
+   "approx": false
+  },
+  {
+   "name": "黄忠",
+   "zi": "汉升",
+   "juan": 36,
+   "book": "蜀",
+   "title": "关张马黄赵传",
+   "count": 8,
+   "approx": false
+  },
+  {
+   "name": "董允",
+   "zi": "休昭",
+   "juan": 39,
+   "book": "蜀",
+   "title": "董刘马陈董吕传",
+   "count": 8,
+   "approx": false
+  },
+  {
+   "name": "马忠",
+   "zi": "德信",
+   "juan": 43,
+   "book": "蜀",
+   "title": "黄李吕马王张传",
+   "count": 8,
+   "approx": false
+  },
+  {
+   "name": "张翼",
+   "zi": "伯恭",
+   "juan": 45,
+   "book": "蜀",
+   "title": "邓张宗杨传",
+   "count": 8,
+   "approx": false
+  },
+  {
+   "name": "士燮",
+   "zi": "威彦",
+   "juan": 49,
+   "book": "吴",
+   "title": "刘繇太史慈士燮传",
+   "count": 8,
+   "approx": false
+  },
+  {
+   "name": "虞翻",
+   "zi": "仲翔",
+   "juan": 57,
+   "book": "吴",
+   "title": "虞陆张骆陆吾朱传",
+   "count": 8,
+   "approx": false
+  },
+  {
+   "name": "吾粲",
+   "zi": "孔休",
+   "juan": 57,
+   "book": "吴",
+   "title": "虞陆张骆陆吾朱传",
+   "count": 8,
+   "approx": false
+  },
+  {
+   "name": "陆抗",
+   "zi": "幼节",
+   "juan": 58,
+   "book": "吴",
+   "title": "陆逊传",
+   "count": 8,
+   "approx": false
+  },
+  {
+   "name": "曹丕",
+   "zi": "子桓",
+   "juan": 2,
+   "book": "魏",
+   "title": "文帝纪",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "公孙度",
+   "zi": "升济",
+   "juan": 8,
+   "book": "魏",
+   "title": "二公孙陶四张传",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "邴原",
+   "zi": "根矩",
+   "juan": 11,
+   "book": "魏",
+   "title": "袁张凉国田王邴管传",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "苏则",
+   "zi": "文师",
+   "juan": 16,
+   "book": "魏",
+   "title": "任苏杜郑仓传",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "侯彰",
+   "zi": "子文",
+   "juan": 19,
+   "book": "魏",
+   "title": "任城陈萧王传",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "陈矫",
+   "zi": "季弼",
+   "juan": 22,
+   "book": "魏",
+   "title": "桓二陈徐卫卢传",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "韩暨",
+   "zi": "公至",
+   "juan": 24,
+   "book": "魏",
+   "title": "韩崔高孙王传",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "高堂隆",
+   "zi": "升平",
+   "juan": 25,
+   "book": "魏",
+   "title": "辛毗杨阜高堂隆传",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "徐邈",
+   "zi": "景山",
+   "juan": 27,
+   "book": "魏",
+   "title": "徐胡二王传",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "胡质",
+   "zi": "文德",
+   "juan": 27,
+   "book": "魏",
+   "title": "徐胡二王传",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "谯周",
+   "zi": "允南",
+   "juan": 42,
+   "book": "蜀",
+   "title": "杜周杜许孟来尹李谯传",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "郝普",
+   "zi": "子太",
+   "juan": 45,
+   "book": "蜀",
+   "title": "邓张宗杨传",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "程秉",
+   "zi": "德枢",
+   "juan": 53,
+   "book": "吴",
+   "title": "张严程阚薛传",
+   "count": 7,
+   "approx": true
+  },
+  {
+   "name": "薛综",
+   "zi": "敬文",
+   "juan": 53,
+   "book": "吴",
+   "title": "张严程阚薛传",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "武纪",
+   "zi": "",
+   "juan": 57,
+   "book": "吴",
+   "title": "虞陆张骆陆吾朱传",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "诸葛绪",
+   "zi": "",
+   "juan": 57,
+   "book": "吴",
+   "title": "虞陆张骆陆吾朱传",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "贺齐",
+   "zi": "公苗",
+   "juan": 60,
+   "book": "吴",
+   "title": "贺全吕周锺离传",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "胡综",
+   "zi": "伟则",
+   "juan": 62,
+   "book": "吴",
+   "title": "是仪胡综传",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "刘惇",
+   "zi": "子仁",
+   "juan": 63,
+   "book": "吴",
+   "title": "吴范刘惇赵达传",
+   "count": 7,
+   "approx": true
+  },
+  {
+   "name": "王蕃",
+   "zi": "永元",
+   "juan": 65,
+   "book": "吴",
+   "title": "王楼贺韦华传",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "司马懿",
+   "zi": "仲达",
+   "juan": 15,
+   "book": "魏",
+   "title": "刘司马梁张温贾传",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "夏侯霸",
+   "zi": "仲权",
+   "juan": 9,
+   "book": "魏",
+   "title": "诸夏侯曹传",
+   "count": 7,
+   "approx": false
+  },
+  {
+   "name": "刘晔",
+   "zi": "子扬",
+   "juan": 14,
+   "book": "魏",
+   "title": "程郭董刘蒋刘传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "刘放",
+   "zi": "子弃",
+   "juan": 14,
+   "book": "魏",
+   "title": "程郭董刘蒋刘传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "士仁",
+   "zi": "",
+   "juan": 14,
+   "book": "魏",
+   "title": "程郭董刘蒋刘传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "杜畿",
+   "zi": "伯侯",
+   "juan": 16,
+   "book": "魏",
+   "title": "任苏杜郑仓传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "文聘",
+   "zi": "仲业",
+   "juan": 18,
+   "book": "魏",
+   "title": "二李臧文吕许典二庞阎传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "王宇",
+   "zi": "彭祖",
+   "juan": 20,
+   "book": "魏",
+   "title": "武文世王公传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "刘劭",
+   "zi": "孔才",
+   "juan": 21,
+   "book": "魏",
+   "title": "王卫二刘傅传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "桓阶",
+   "zi": "伯绪",
+   "juan": 22,
+   "book": "魏",
+   "title": "桓二陈徐卫卢传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "卫臻",
+   "zi": "公振",
+   "juan": 22,
+   "book": "魏",
+   "title": "桓二陈徐卫卢传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "杜袭",
+   "zi": "子绪",
+   "juan": 23,
+   "book": "魏",
+   "title": "和常杨杜赵裴传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "崔林",
+   "zi": "德儒",
+   "juan": 24,
+   "book": "魏",
+   "title": "韩崔高孙王传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "杨阜",
+   "zi": "义山",
+   "juan": 25,
+   "book": "魏",
+   "title": "辛毗杨阜高堂隆传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "刘理",
+   "zi": "奉孝",
+   "juan": 34,
+   "book": "蜀",
+   "title": "二主妃子传",
+   "count": 6,
+   "approx": true
+  },
+  {
+   "name": "孙乾",
+   "zi": "公祐",
+   "juan": 38,
+   "book": "蜀",
+   "title": "许麋孙简伊秦传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "刘巴",
+   "zi": "子初",
+   "juan": 39,
+   "book": "蜀",
+   "title": "董刘马陈董吕传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "太史慈",
+   "zi": "子义",
+   "juan": 49,
+   "book": "吴",
+   "title": "刘繇太史慈士燮传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "孙韶",
+   "zi": "公礼",
+   "juan": 51,
+   "book": "吴",
+   "title": "宗室传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "阚泽",
+   "zi": "德润",
+   "juan": 53,
+   "book": "吴",
+   "title": "张严程阚薛传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "韩当",
+   "zi": "义公",
+   "juan": 55,
+   "book": "吴",
+   "title": "程黄韩蒋周陈董甘凌徐潘丁传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "蒋钦",
+   "zi": "公奕",
+   "juan": 55,
+   "book": "吴",
+   "title": "程黄韩蒋周陈董甘凌徐潘丁传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "朱治",
+   "zi": "君理",
+   "juan": 56,
+   "book": "吴",
+   "title": "朱治朱然吕范朱桓传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "朱桓",
+   "zi": "休穆",
+   "juan": 56,
+   "book": "吴",
+   "title": "朱治朱然吕范朱桓传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "楼玄",
+   "zi": "承先",
+   "juan": 65,
+   "book": "吴",
+   "title": "王楼贺韦华传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "韦曜",
+   "zi": "弘嗣",
+   "juan": 65,
+   "book": "吴",
+   "title": "王楼贺韦华传",
+   "count": 6,
+   "approx": false
+  },
+  {
+   "name": "毛玠",
+   "zi": "孝先",
+   "juan": 12,
+   "book": "魏",
+   "title": "崔毛徐何邢鲍司马传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "贾逵",
+   "zi": "梁道",
+   "juan": 15,
+   "book": "魏",
+   "title": "刘司马梁张温贾传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "王冲",
+   "zi": "仓舒",
+   "juan": 20,
+   "book": "魏",
+   "title": "武文世王公传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "王彪",
+   "zi": "朱虎",
+   "juan": 20,
+   "book": "魏",
+   "title": "武文世王公传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "王粲",
+   "zi": "仲宣",
+   "juan": 21,
+   "book": "魏",
+   "title": "王卫二刘傅传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "陈泰",
+   "zi": "玄伯",
+   "juan": 22,
+   "book": "魏",
+   "title": "桓二陈徐卫卢传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "常林",
+   "zi": "伯槐",
+   "juan": 23,
+   "book": "魏",
+   "title": "和常杨杜赵裴传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "杨俊",
+   "zi": "季才",
+   "juan": 23,
+   "book": "魏",
+   "title": "和常杨杜赵裴传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "赵俨",
+   "zi": "伯然",
+   "juan": 23,
+   "book": "魏",
+   "title": "和常杨杜赵裴传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "周宣",
+   "zi": "孔和",
+   "juan": 29,
+   "book": "魏",
+   "title": "方技传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "马良",
+   "zi": "",
+   "juan": 29,
+   "book": "魏",
+   "title": "方技传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "简雍",
+   "zi": "宪和",
+   "juan": 38,
+   "book": "蜀",
+   "title": "许麋孙简伊秦传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "董和",
+   "zi": "幼宰",
+   "juan": 39,
+   "book": "蜀",
+   "title": "董刘马陈董吕传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "王连",
+   "zi": "文仪",
+   "juan": 41,
+   "book": "蜀",
+   "title": "霍王向张杨费传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "向朗",
+   "zi": "巨达",
+   "juan": 41,
+   "book": "蜀",
+   "title": "霍王向张杨费传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "杜琼",
+   "zi": "伯瑜",
+   "juan": 42,
+   "book": "蜀",
+   "title": "杜周杜许孟来尹李谯传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "郤正",
+   "zi": "令先",
+   "juan": 42,
+   "book": "蜀",
+   "title": "杜周杜许孟来尹李谯传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "王平",
+   "zi": "子均",
+   "juan": 43,
+   "book": "蜀",
+   "title": "黄李吕马王张传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "张嶷",
+   "zi": "伯岐",
+   "juan": 43,
+   "book": "蜀",
+   "title": "黄李吕马王张传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "张纮",
+   "zi": "子纲",
+   "juan": 53,
+   "book": "吴",
+   "title": "张严程阚薛传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "严畯",
+   "zi": "曼才",
+   "juan": 53,
+   "book": "吴",
+   "title": "张严程阚薛传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "黄盖",
+   "zi": "公覆",
+   "juan": 55,
+   "book": "吴",
+   "title": "程黄韩蒋周陈董甘凌徐潘丁传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "骆统",
+   "zi": "公绪",
+   "juan": 57,
+   "book": "吴",
+   "title": "虞陆张骆陆吾朱传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "孙和",
+   "zi": "子孝",
+   "juan": 59,
+   "book": "吴",
+   "title": "吴主五子传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "周鲂",
+   "zi": "子鱼",
+   "juan": 60,
+   "book": "吴",
+   "title": "贺全吕周锺离传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "是仪",
+   "zi": "子羽",
+   "juan": 62,
+   "book": "吴",
+   "title": "是仪胡综传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "濮阳兴",
+   "zi": "子元",
+   "juan": 64,
+   "book": "吴",
+   "title": "诸葛滕二孙濮阳传",
+   "count": 5,
+   "approx": false
+  },
+  {
+   "name": "张燕",
+   "zi": "",
+   "juan": 8,
+   "book": "魏",
+   "title": "二公孙陶四张传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "凉茂",
+   "zi": "伯方",
+   "juan": 11,
+   "book": "魏",
+   "title": "袁张凉国田王邴管传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "徐奕",
+   "zi": "季才",
+   "juan": 12,
+   "book": "魏",
+   "title": "崔毛徐何邢鲍司马传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "司马朗",
+   "zi": "伯达",
+   "juan": 15,
+   "book": "魏",
+   "title": "刘司马梁张温贾传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "梁习",
+   "zi": "子虞",
+   "juan": 15,
+   "book": "魏",
+   "title": "刘司马梁张温贾传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "张既",
+   "zi": "德容",
+   "juan": 15,
+   "book": "魏",
+   "title": "刘司马梁张温贾传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "温恢",
+   "zi": "曼基",
+   "juan": 15,
+   "book": "魏",
+   "title": "刘司马梁张温贾传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "李通",
+   "zi": "文达",
+   "juan": 18,
+   "book": "魏",
+   "title": "二李臧文吕许典二庞阎传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "许褚",
+   "zi": "仲康",
+   "juan": 18,
+   "book": "魏",
+   "title": "二李臧文吕许典二庞阎传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "刘廙",
+   "zi": "恭嗣",
+   "juan": 21,
+   "book": "魏",
+   "title": "王卫二刘傅传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "傅嘏",
+   "zi": "兰石",
+   "juan": 21,
+   "book": "魏",
+   "title": "王卫二刘傅传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "和洽",
+   "zi": "阳士",
+   "juan": 23,
+   "book": "魏",
+   "title": "和常杨杜赵裴传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "裴潜",
+   "zi": "文行",
+   "juan": 23,
+   "book": "魏",
+   "title": "和常杨杜赵裴传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "王观",
+   "zi": "伟台",
+   "juan": 24,
+   "book": "魏",
+   "title": "韩崔高孙王传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "华佗",
+   "zi": "元化",
+   "juan": 29,
+   "book": "魏",
+   "title": "方技传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "祖明",
+   "zi": "",
+   "juan": 29,
+   "book": "魏",
+   "title": "方技传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "秦宓",
+   "zi": "子敕",
+   "juan": 38,
+   "book": "蜀",
+   "title": "许麋孙简伊秦传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "吕乂",
+   "zi": "季阳",
+   "juan": 39,
+   "book": "蜀",
+   "title": "董刘马陈董吕传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "陈祗",
+   "zi": "奉宗",
+   "juan": 39,
+   "book": "蜀",
+   "title": "董刘马陈董吕传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "廖立",
+   "zi": "公渊",
+   "juan": 40,
+   "book": "蜀",
+   "title": "刘彭廖李刘魏杨传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "孟光",
+   "zi": "孝裕",
+   "juan": 42,
+   "book": "蜀",
+   "title": "杜周杜许孟来尹李谯传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "来敏",
+   "zi": "敬达",
+   "juan": 42,
+   "book": "蜀",
+   "title": "杜周杜许孟来尹李谯传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "尹默",
+   "zi": "思潜",
+   "juan": 42,
+   "book": "蜀",
+   "title": "杜周杜许孟来尹李谯传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "宗预",
+   "zi": "德艳",
+   "juan": 45,
+   "book": "蜀",
+   "title": "邓张宗杨传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "孙贲",
+   "zi": "伯阳",
+   "juan": 51,
+   "book": "吴",
+   "title": "宗室传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "贺邵",
+   "zi": "孝则",
+   "juan": 52,
+   "book": "吴",
+   "title": "张顾诸葛步传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "陆绩",
+   "zi": "",
+   "juan": 55,
+   "book": "吴",
+   "title": "程黄韩蒋周陈董甘凌徐潘丁传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "赵达",
+   "zi": "",
+   "juan": 63,
+   "book": "吴",
+   "title": "吴范刘惇赵达传",
+   "count": 4,
+   "approx": false
+  },
+  {
+   "name": "高翔",
+   "zi": "云翼",
+   "juan": 38,
+   "book": "蜀",
+   "title": "许麋孙简伊秦传",
+   "count": 4,
+   "approx": true
+  },
+  {
+   "name": "糜芳",
+   "zi": "兰卿",
+   "juan": 4,
+   "book": "魏",
+   "title": "三少帝纪",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "杜祺",
+   "zi": "",
+   "juan": 8,
+   "book": "魏",
+   "title": "二公孙陶四张传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "袁涣",
+   "zi": "曜卿",
+   "juan": 11,
+   "book": "魏",
+   "title": "袁张凉国田王邴管传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "张范",
+   "zi": "公仪",
+   "juan": 11,
+   "book": "魏",
+   "title": "袁张凉国田王邴管传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "王脩",
+   "zi": "叔治",
+   "juan": 11,
+   "book": "魏",
+   "title": "袁张凉国田王邴管传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "何夔",
+   "zi": "叔龙",
+   "juan": 12,
+   "book": "魏",
+   "title": "崔毛徐何邢鲍司马传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "鲍勋",
+   "zi": "叔业",
+   "juan": 12,
+   "book": "魏",
+   "title": "崔毛徐何邢鲍司马传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "司马芝",
+   "zi": "子华",
+   "juan": 12,
+   "book": "魏",
+   "title": "崔毛徐何邢鲍司马传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "王郎",
+   "zi": "景兴",
+   "juan": 13,
+   "book": "魏",
+   "title": "锺繇华歆王朗传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "庞淯",
+   "zi": "子异",
+   "juan": 18,
+   "book": "魏",
+   "title": "二李臧文吕许典二庞阎传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "阎温",
+   "zi": "伯俭",
+   "juan": 18,
+   "book": "魏",
+   "title": "二李臧文吕许典二庞阎传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "典韦",
+   "zi": "",
+   "juan": 18,
+   "book": "魏",
+   "title": "二李臧文吕许典二庞阎传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "杨昂",
+   "zi": "子脩",
+   "juan": 20,
+   "book": "魏",
+   "title": "武文世王公传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "卫觊",
+   "zi": "伯儒",
+   "juan": 21,
+   "book": "魏",
+   "title": "王卫二刘傅传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "牵招",
+   "zi": "子经",
+   "juan": 26,
+   "book": "魏",
+   "title": "满田牵郭传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "朱建平",
+   "zi": "",
+   "juan": 29,
+   "book": "魏",
+   "title": "方技传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "陈震",
+   "zi": "孝起",
+   "juan": 39,
+   "book": "蜀",
+   "title": "董刘马陈董吕传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "彭羕",
+   "zi": "永年",
+   "juan": 40,
+   "book": "蜀",
+   "title": "刘彭廖李刘魏杨传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "杨洪",
+   "zi": "季休",
+   "juan": 41,
+   "book": "蜀",
+   "title": "霍王向张杨费传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "时举",
+   "zi": "",
+   "juan": 41,
+   "book": "蜀",
+   "title": "霍王向张杨费传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "许慈",
+   "zi": "仁笃",
+   "juan": 42,
+   "book": "蜀",
+   "title": "杜周杜许孟来尹李谯传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "吕凯",
+   "zi": "季平",
+   "juan": 43,
+   "book": "蜀",
+   "title": "黄李吕马王张传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "杨戏",
+   "zi": "文然",
+   "juan": 45,
+   "book": "蜀",
+   "title": "邓张宗杨传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "孙皎",
+   "zi": "叔朗",
+   "juan": 51,
+   "book": "吴",
+   "title": "宗室传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "孙桓",
+   "zi": "叔武",
+   "juan": 51,
+   "book": "吴",
+   "title": "宗室传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "周泰",
+   "zi": "幼平",
+   "juan": 55,
+   "book": "吴",
+   "title": "程黄韩蒋周陈董甘凌徐潘丁传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "陆瑁",
+   "zi": "子璋",
+   "juan": 57,
+   "book": "吴",
+   "title": "虞陆张骆陆吾朱传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "钟离牧",
+   "zi": "子幹",
+   "juan": 60,
+   "book": "吴",
+   "title": "贺全吕周锺离传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "吴范",
+   "zi": "文则",
+   "juan": 63,
+   "book": "吴",
+   "title": "吴范刘惇赵达传",
+   "count": 3,
+   "approx": false
+  },
+  {
+   "name": "王叡",
+   "zi": "元仲",
+   "juan": 3,
+   "book": "魏",
+   "title": "明帝纪",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "孙奂",
+   "zi": "景明",
+   "juan": 4,
+   "book": "魏",
+   "title": "三少帝纪",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "刘馥",
+   "zi": "元颖",
+   "juan": 15,
+   "book": "魏",
+   "title": "刘司马梁张温贾传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "任峻",
+   "zi": "伯达",
+   "juan": 16,
+   "book": "魏",
+   "title": "任苏杜郑仓传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "郑浑",
+   "zi": "文公",
+   "juan": 16,
+   "book": "魏",
+   "title": "任苏杜郑仓传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "仓慈",
+   "zi": "孝仁",
+   "juan": 16,
+   "book": "魏",
+   "title": "任苏杜郑仓传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "吕虔",
+   "zi": "子恪",
+   "juan": 18,
+   "book": "魏",
+   "title": "二李臧文吕许典二庞阎传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "徐宣",
+   "zi": "宝坚",
+   "juan": 22,
+   "book": "魏",
+   "title": "桓二陈徐卫卢传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "杜夔",
+   "zi": "公良",
+   "juan": 29,
+   "book": "魏",
+   "title": "方技传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "管辂",
+   "zi": "公明",
+   "juan": 29,
+   "book": "魏",
+   "title": "方技传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "伊籍",
+   "zi": "机伯",
+   "juan": 38,
+   "book": "蜀",
+   "title": "许麋孙简伊秦传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "刘琰",
+   "zi": "威硕",
+   "juan": 40,
+   "book": "蜀",
+   "title": "刘彭廖李刘魏杨传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "霍峻",
+   "zi": "仲邈",
+   "juan": 41,
+   "book": "蜀",
+   "title": "霍王向张杨费传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "费诗",
+   "zi": "公举",
+   "juan": 41,
+   "book": "蜀",
+   "title": "霍王向张杨费传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "杜微",
+   "zi": "国辅",
+   "juan": 42,
+   "book": "蜀",
+   "title": "杜周杜许孟来尹李谯传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "周群",
+   "zi": "仲直",
+   "juan": 42,
+   "book": "蜀",
+   "title": "杜周杜许孟来尹李谯传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "李衡",
+   "zi": "",
+   "juan": 43,
+   "book": "蜀",
+   "title": "黄李吕马王张传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "刘基",
+   "zi": "敬舆",
+   "juan": 49,
+   "book": "吴",
+   "title": "刘繇太史慈士燮传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "孙静",
+   "zi": "幼台",
+   "juan": 51,
+   "book": "吴",
+   "title": "宗室传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "孙辅",
+   "zi": "国仪",
+   "juan": 51,
+   "book": "吴",
+   "title": "宗室传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "孙翊",
+   "zi": "叔弼",
+   "juan": 51,
+   "book": "吴",
+   "title": "宗室传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "陈端",
+   "zi": "子正",
+   "juan": 53,
+   "book": "吴",
+   "title": "张严程阚薛传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "陈武",
+   "zi": "子烈",
+   "juan": 55,
+   "book": "吴",
+   "title": "程黄韩蒋周陈董甘凌徐潘丁传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "董袭",
+   "zi": "元代",
+   "juan": 55,
+   "book": "吴",
+   "title": "程黄韩蒋周陈董甘凌徐潘丁传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "孙登",
+   "zi": "子高",
+   "juan": 59,
+   "book": "吴",
+   "title": "吴主五子传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "孙虑",
+   "zi": "子智",
+   "juan": 59,
+   "book": "吴",
+   "title": "吴主五子传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "羊祜",
+   "zi": "叔子",
+   "juan": 28,
+   "book": "魏",
+   "title": "王毌丘诸葛邓锺传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "杜预",
+   "zi": "元凯",
+   "juan": 28,
+   "book": "魏",
+   "title": "王毌丘诸葛邓锺传",
+   "count": 2,
+   "approx": false
+  },
+  {
+   "name": "阎圃",
+   "zi": "仲德",
+   "juan": 45,
+   "book": "蜀",
+   "title": "邓张宗杨传",
+   "count": 2,
+   "approx": false
+  }
+ ],
+ "personStats": {
+  "total": 296,
+  "byBook": [
+   [
+    "魏",
+    142
+   ],
+   [
+    "蜀",
+    67
+   ],
+   [
+    "吴",
+    87
+   ]
+  ],
+  "withZi": 280,
+  "surnames": [
+   [
+    "孙",
+    23
+   ],
+   [
+    "张",
+    17
+   ],
+   [
+    "刘",
+    16
+   ],
+   [
+    "王",
+    14
+   ],
+   [
+    "曹",
+    8
+   ],
+   [
+    "吕",
+    7
+   ],
+   [
+    "陈",
+    7
+   ],
+   [
+    "杜",
+    7
+   ],
+   [
+    "诸葛",
+    6
+   ],
+   [
+    "董",
+    6
+   ],
+   [
+    "朱",
+    6
+   ],
+   [
+    "杨",
+    6
+   ],
+   [
+    "袁",
+    5
+   ],
+   [
+    "陆",
+    5
+   ],
+   [
+    "周",
+    5
+   ],
+   [
+    "徐",
+    5
+   ],
+   [
+    "李",
+    5
+   ],
+   [
+    "马",
+    4
+   ]
+  ]
+ },
  "sentHist": [
   [
    "1-5",
