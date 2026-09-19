@@ -625,6 +625,103 @@ BOOKS = {
                   "五虎大将名单自第七十三回封号正文提取，年号纪年自正文所见「〔年号〕〔数〕年」提取；"
                   "「六段叙事」「人物阵营」为整理样本；「肆 · 全量人物」其外人等由脚本按对话引导词与名号笔法自动识别，未经人工校勘，或有讹漏。",
     },
+    "诗经": {
+        "stats_file": "stats_sj.json",
+        "h1": "诗 经",
+        "sub": "周鲁宋之史官、诗人 编 · 毛诗三百零五篇 · 全文语料精确统计 · 29,646 汉字",
+        "cat_color": {"国风": "#8c2f23", "小雅": "#3b6b9b", "大雅": "#a67c00",
+                      "周颂": "#3e8e4d", "鲁颂": "#7a4b8f", "商颂": "#6b5f4e"},
+        "cat_order": ["国风", "小雅", "大雅", "周颂", "鲁颂", "商颂"],
+        "cat_label": "诗体",
+        "book_suffix": "",
+        "unit": "篇",
+        "total_juan": "305",
+        "juan_note": "国风160 · 小雅74 · 大雅31 · 周颂31 · 鲁颂4 · 商颂5（六首笙诗有目无辞者不录）",
+        "struct_title": "六体结构",
+        "juan_sub": "风为十五国之民歌，雅为朝廷之正声（分大小），颂为庙堂祭祀之歌（分周鲁商）",
+        "len_sub": "三百零五篇逐篇字数，按六体着色；悬停查看篇名",
+        "structure": {
+            "x": ["国风", "小雅", "大雅", "周颂", "鲁颂", "商颂"], "stacked": False,
+            "series": [{"name": "篇数", "data": [160, 74, 31, 31, 4, 5], "color": None}],
+        },
+        "cmp_title": "国风 / 雅颂 用字密度",
+        "cmp_color": {"国风": "#8c2f23", "雅颂": "#3b6b9b"},
+        "cmp_sub": "国风一百六十篇（民歌曲）与雅颂一百四十五篇（朝廷庙堂之乐）各取前十高频字，"
+                   "单位「次/千字」；篇次相连，故以第一百六十篇为界",
+        "guo_title": "诗之主题字与关键语",
+        "guo_sub": "天 / 帝 / 德 / 命 / 孝 / 祀 与 思 / 忧 / 哀 / 乐 / 民 / 王 诸字，"
+                   "及「君子」「淑女」「于归」「万年」在全书的频次；草木鸟兽之名别见于「肆」",
+        "type_title": "称名构成（一览 27 条归类）",
+        "timeline_key": "dieju",
+        "tl_fmt": "%s",
+        "tl_title": "叠句簿：同篇之内句组等长而易置数字者（重章叠句之笔法，自正文比对而得）",
+        "tl_col": "篇名",
+        "type_options": ["周臣", "泛称之人", "周王", "周之先祖", "神祇", "商王"],
+        "zi_prefix": "，又称 ",
+        "type_pie": [("周臣", 10), ("泛称之人", 7), ("周王", 3), ("周之先祖", 3), ("神祇", 2), ("商王", 2)],
+        "bios": [
+        ("上帝", "昊天(26)·旻天(3)·皇天(2)·苍天(8)·上天(3)·维天(3)", "国风", "神祇", 65, "王风·黍离"),
+        ("天", "", "国风", "神祇", 40, "邶风·北门"),
+        ("文王", "穆穆文王(1)·文王在上(1)", "大雅", "周王", 235, "大雅·文王"),
+        ("武王", "于皇武王(1)·下武维周(1)", "大雅", "周王", 236, "大雅·大明"),
+        ("成王", "", "大雅", "周王", 243, "大雅·下武"),
+        ("周公", "", "国风", "周臣", 157, "豳风·破斧"),
+        ("召公", "召伯(11)·召虎(2)", "国风", "周臣", 16, "召南·甘棠"),
+        ("仲山甫", "山甫(12)", "大雅", "周臣", 260, "大雅·烝民"),
+        ("后稷", "", "大雅", "周之先祖", 245, "大雅·生民"),
+        ("公刘", "笃公刘(6)", "大雅", "周之先祖", 250, "大雅·公刘"),
+        ("王季", "", "大雅", "周之先祖", 236, "大雅·大明"),
+        ("申伯", "", "大雅", "周臣", 259, "大雅·崧高"),
+        ("方叔", "", "小雅", "周臣", 178, "小雅·采芑"),
+        ("南仲", "", "小雅", "周臣", 168, "小雅·出车"),
+        ("韩侯", "", "大雅", "周臣", 261, "大雅·韩奕"),
+        ("皇父", "", "小雅", "周臣", 193, "小雅·十月之交"),
+        ("蹶父", "", "大雅", "周臣", 261, "大雅·韩奕"),
+        ("尹氏", "", "小雅", "周臣", 191, "小雅·节南山"),
+        ("汤", "汤孙(5)·成汤(1)", "商颂", "商王", 301, "商颂·那"),
+        ("武丁", "武丁孙子(2)", "商颂", "商王", 303, "商颂·玄鸟"),
+        ("君子", "岂弟君子(16)", "国风", "泛称之人", 1, "周南·关雎"),
+        ("美人", "", "国风", "泛称之人", 38, "邶风·简兮"),
+        ("硕人", "", "国风", "泛称之人", 38, "邶风·简兮"),
+        ("淑人", "淑人君子(7)", "国风", "泛称之人", 152, "曹风·鳲鸠"),
+        ("良人", "", "国风", "泛称之人", 118, "唐风·绸缪"),
+        ("士", "", "国风", "泛称之人", 20, "召南·摽有梅"),
+        ("女", "", "国风", "泛称之人", 1, "周南·关雎"),
+        ],
+        "len_label": "首见篇字数",
+        "zi_col": "别称·神号", "pian_col": "首见篇", "person_pian_col": "首见篇",
+        "person_zi_col": "部类", "person_zi_prefix": "，属",
+        "bios_head": "称名一览（别称与首见之篇皆自正文求得，另列其类）",
+        "cat_head": "分体名物种数 / 见「部类」",
+        "sn_note": "九十五物皆于正文有征（无征者不录），部类粗分。本书以草木鸟兽连书者多，"
+                   "「出现次数」为正文连书此名之处；「燕」兼「燕婉」、「马」兼车驾之用，皆同字并计。",
+        "bios_note": "六体为《诗》之体裁分类（国风、二雅、三颂）；重言（叠字）自正文正则而得，叠句自同篇句组比对而得，"
+                     "名物、称名与神号称名皆逐条回查正文；「肆」以鸟兽草木为谱，部类为整理样本",
+        "name_sub": "神祇、周之先公名臣与商王、篇中泛称之人的称名统计（本名 / 别称·他称 堆叠，精确子串计数）",
+        "name_segs": ["本名", "别称·他称"],
+        "name_caption": "注：《诗》多以其名号相呼而不系姓，「君子」「美人」「硕人」一类乃篇中之泛称而非一人；"
+                        "「武王」在雅颂指周武王，在《商颂·玄鸟》则指汤；「召公」并其世臣之称（召伯、召虎）计之。悬停可见各变体明细。",
+        "zi_label": "可归部类", "zi_series_label": "其中可归部类",
+        "persons_extract": "自正文逐字求得之名物，凡连书此名者计之，无征者不录；部类（谷·草·木·鸟·兽·虫鱼）为整理归类",
+        "persons_caption": "「部类」一列为整理归类；「出现次数」为正文连书此名之处，「首见篇」以直书此名之篇为准。"
+                           "《诗》之「多识于鸟兽草木之名」自昔为治《诗》者所重，此谱即就正文所见而为计数，非取外来之《诗》草木疏。",
+        "terms_head": "重言（叠字）Top 20",
+        "sent_title": "言数分布（四言为《诗》之经）",
+        "sent_suffix": "",
+        "tabs": ["壹 · 全书概览", "贰 · 字词频率", "叁 · 称名与叠句", "肆 · 鸟兽草木"],
+        "count_unit": "物",
+        "name_col": "名物",
+        "extract_metric": "正文有征名物",
+        "extract_series": "提取名物",
+        "top_group_label": "最大部类", "top_group_fmt": "{g} 类",
+        "sn_title": "部类分布（六位）",
+        "freq_head": "连书 Top 30 名物",
+        "index_head": "名物索引",
+        "source": "《诗经》白文全文（毛诗三百零五篇，不含小序与注疏），语料取自 GitHub 开源仓库 chinese-poetry/chinese-poetry :: 诗经；"
+                  "统计脚本逐字计数，多字词条为精确子串匹配。重言自正文「〔字〕〔同字〕」连书而得，"
+                  "叠句自同篇句组等长比对而得，名物与称名皆逐条回查正文（无征者不录）；"
+                  "全文唯《兔罝》「肃肃免罝」一字从毛本作「兔」；「六体」为名目分类，「部类」「称名之类」为整理样本。",
+    },
 }
 
 _book_keys = list(BOOKS.keys())
@@ -639,8 +736,11 @@ if C.get("timeline_key"):
 CMP_C = {**CC, **C.get("cmp_color", {})}   # 对比图分组可与分类不同（红楼梦为前八十/后四十回）
 U = C.get("unit", "卷")          # 分篇单位：三国志/史记为「卷」，红楼梦为「回」
 ZI = C.get("zi_col", "字")       # 人物第二列：史书为「字」，白话小说为别称·诗号
+PZI = C.get("person_zi_col", ZI)  # 「肆」同名之列：诗经名物谱此处记「部类」，与「叁」之别称不同
+PZP = C.get("person_zi_prefix", C.get("zi_prefix", "，字"))
 PIAN = C.get("pian_col", "传记篇名")
 PIAN2 = C.get("person_pian_col", "本传篇名")
+NC = C.get("name_col", "姓名")        # 首列：史书小说为「姓名」，诗经名物谱为「名物」
 csuffix = lambda b: b + C["book_suffix"]
 
 st.markdown(
@@ -665,7 +765,8 @@ def hbar(pairs, color="#a67c00", height=420, fontsize=12):
     }
 
 
-TABS = ["壹 · 全书概览", "贰 · 字词频率", "叁 · 人物与传记", "肆 · 全量人物"]
+TABS = C.get("tabs") or ["壹 · 全书概览", "贰 · 字词频率", "叁 · 人物与传记", "肆 · 全量人物"]
+CU = C.get("count_unit", "人")        # 肆之计数口径：小说为「人」，诗经名物谱为「物」
 page = st.radio("章节", TABS, horizontal=True, label_visibility="collapsed")
 _SHOW = TABS if os.environ.get("SHIBU_ALL") else [page]
 
@@ -679,7 +780,7 @@ if TABS[0] in _SHOW:
     c[3].metric(f"总{U}数", C["total_juan"], help=C["juan_note"])
     c[4].metric("句子总数", FMT(m["sentCount"]), help="按句读切分")
     c[5].metric("平均句长", m["avgSent"], help="字 / 句")
-    c[6].metric("自动提取人物", FMT(S["personStats"]["total"]), help="见「肆 · 全量人物」")
+    c[6].metric(C.get("extract_metric", "自动提取人物"), FMT(S["personStats"]["total"]), help=f"见「{TABS[3]}」")
 
     st.caption(C["bios_note"])
     left, right = st.columns([1, 2])
@@ -741,7 +842,7 @@ if TABS[1] in _SHOW:
 
     c3, c4 = st.columns(2)
     with c3:
-        st.subheader("多字词语 Top 20")
+        st.subheader(C.get("terms_head", "多字词语 Top 20"))
         terms2 = [t for t in S["termCounts"] if len(t[0]) > 1][:20]
         st_echarts(hbar(terms2, color="#a67c00", height=460), height="480px")
     with c4:
@@ -772,12 +873,12 @@ if TABS[1] in _SHOW:
                                  for g in S["GUOHao"]]}],
         }, height="360px")
     with c6:
-        st.subheader("句长分布")
+        st.subheader(C.get("sent_title", "句长分布"))
         st_echarts({
             "backgroundColor": "transparent",
             "tooltip": {"trigger": "axis"},
             "grid": {"left": 55, "right": 20, "top": 30, "bottom": 30},
-            "xAxis": {"type": "category", "data": [f"{b[0]} 字" for b in S["sentHist"]], **AXIS},
+            "xAxis": {"type": "category", "data": [f"{b[0]}{C.get('sent_suffix', ' 字')}" for b in S["sentHist"]], **AXIS},
             "yAxis": {"type": "value", "name": "句数", **AXIS},
             "series": [{"type": "bar", "barWidth": "60%", "data": [b[1] for b in S["sentHist"]],
                         "itemStyle": {"color": "#8c2f23", "borderRadius": [6, 6, 0, 0]},
@@ -826,7 +927,7 @@ if TABS[2] in _SHOW:
         st.subheader(C["type_title"])
         st_echarts({
             "backgroundColor": "transparent",
-            "tooltip": {"trigger": "item", "formatter": "{b}：{c} 人（{d}%）"},
+            "tooltip": {"trigger": "item", "formatter": "{b}：{c} " + CU + "（{d}%）"},
             "legend": {"bottom": 0},
             "color": PALETTE,
             "series": [{"type": "pie", "radius": ["28%", "62%"], "center": ["50%", "45%"],
@@ -840,7 +941,7 @@ if TABS[2] in _SHOW:
 
     st.subheader(C.get("bios_head", "传记一览"))
     LEN = {p["title"]: p["len"] for p in S["pianLens"]}
-    df = pd.DataFrame(C["bios"], columns=["姓名", ZI, C["cat_label"], "类型", U + "次", PIAN])
+    df = pd.DataFrame(C["bios"], columns=[NC, ZI, C["cat_label"], "类型", U + "次", PIAN])
     df[C.get("len_label", "本传字数")] = df[PIAN].map(LEN)
     f1, f2 = st.columns(2)
     sel_cat = f1.multiselect(C["cat_label"], C["cat_order"], C["cat_order"], key="bio_cat")
@@ -860,21 +961,22 @@ if TABS[3] in _SHOW:
     P = S["persons"]
     PS = S["personStats"]
     c = st.columns(4)
-    c[0].metric("自动提取人物", FMT(PS["total"]), help=C["persons_extract"])
+    c[0].metric(C.get("extract_metric", "自动提取人物"), FMT(PS["total"]), help=C["persons_extract"])
     c[1].metric(C.get("zi_label", "见「字」记载"), FMT(PS["withZi"]), help=f"占 {PS['withZi'] * 100 // max(PS['total'],1)}%")
     c[2].metric(" · ".join(csuffix(b) for b, _ in PS["byBook"]), " · ".join(FMT(v) for _, v in PS["byBook"]))
-    c[3].metric("第一大姓", f"{PS['surnames'][0][0]} 氏", help=f"{PS['surnames'][0][1]} 人")
+    c[3].metric(C.get("top_group_label", "第一大姓"),
+                C.get("top_group_fmt", "{g} 氏").format(g=PS["surnames"][0][0]), help=f"{PS['surnames'][0][1]} {CU}")
 
     lft, rgt = st.columns(2)
     with lft:
-        st.subheader("姓氏分布 Top 18")
+        st.subheader(C.get("sn_title", "姓氏分布 Top 18"))
         st_echarts({
             "backgroundColor": "transparent",
             "tooltip": {"trigger": "axis"},
             "grid": {"left": 50, "right": 20, "top": 20, "bottom": 70},
             "xAxis": {"type": "category", "data": [x[0] for x in PS["surnames"]],
                       "axisLabel": {"interval": 0, "rotate": 40}, **AXIS},
-            "yAxis": {"type": "value", "name": "人数", **AXIS},
+            "yAxis": {"type": "value", "name": CU + "数", **AXIS},
             "series": [{"type": "bar", "barWidth": "62%", "data": [x[1] for x in PS["surnames"]],
                         "itemStyle": {"color": "#a67c00", "borderRadius": [6, 6, 0, 0]},
                         "label": {"show": True, "position": "top", "fontSize": 11}}],
@@ -889,9 +991,9 @@ if TABS[3] in _SHOW:
             "legend": {"bottom": 0},
             "grid": {"left": 50, "right": 20, "top": 20, "bottom": 50},
             "xAxis": {"type": "category", "data": [csuffix(x[0]) for x in PS["byBook"]], **AXIS},
-            "yAxis": {"type": "value", "name": "人数", **AXIS},
+            "yAxis": {"type": "value", "name": CU + "数", **AXIS},
             "series": [
-                {"name": "提取人物", "type": "bar", "barWidth": 44, "label": {"show": True, "position": "top"},
+                {"name": C.get("extract_series", "提取人物"), "type": "bar", "barWidth": 44, "label": {"show": True, "position": "top"},
                  "data": [{"value": x[1], "itemStyle": {"color": CC[x[0]]}} for x in PS["byBook"]]},
                 {"name": C.get("zi_series_label", "其中见「字」"), "type": "line", "symbol": "circle", "symbolSize": 8,
                  "lineStyle": {"color": "#6b5f4e"}, "itemStyle": {"color": "#6b5f4e"},
@@ -899,7 +1001,7 @@ if TABS[3] in _SHOW:
             ],
         }, height="440px")
 
-    st.subheader("出现频次 Top 30 人物")
+    st.subheader(C.get("freq_head", "出现频次 Top 30 人物"))
     top = P[:30]
     tip = json.dumps([{"n": p["name"], "z": p["zi"], "j": U + str(p["juan"]), "t": p["title"],
                        "c": p["count"], "a": bool(p.get("approx"))} for p in top], ensure_ascii=False)
@@ -907,7 +1009,7 @@ if TABS[3] in _SHOW:
         "backgroundColor": "transparent",
         "tooltip": {"trigger": "axis", "formatter":
                     "function(p){var d=" + tip + "[p[0].dataIndex];"
-                    "return '<b>'+d.n+'</b>'+(d.z?'" + C.get("zi_prefix", "，字") + "'+d.z:'')+'<br>出现 '+d.c+' 次'"
+                    "return '<b>'+d.n+'</b>'+(d.z?'" + PZP + "'+d.z:'')+'<br>出现 '+d.c+' 次'"
                     "+(d.a?'（含本传内单名称呼）':'')+'<br>'+d.j+'《'+d.t+'》';}"},
         "grid": {"left": 90, "right": 70, "top": 10, "bottom": 30},
         "xAxis": {"type": "value", **AXIS},
@@ -920,23 +1022,24 @@ if TABS[3] in _SHOW:
     }, height="620px")
     st.caption(C["persons_caption"])
 
-    st.subheader(f"人物索引（{FMT(PS['total'])} 人）")
+    st.subheader(f"{C.get('index_head', '人物索引')}（{FMT(PS['total'])} {CU}）")
     pdf = pd.DataFrame(P)[["name", "zi", "book", "juan", "title", "count"]]
-    cols = ["姓名", ZI, C["cat_label"], U + "次", PIAN2, "出现次数"]
+    cols = [C.get("name_col", "姓名"), PZI, C["cat_label"], U + "次", PIAN2, "出现次数"]
     has_approx = any(bool(p.get("approx")) for p in P)
     if has_approx:                      # 近似计数仅对史书「单名称呼」口径有意义
         pdf["approx"] = [bool(p.get("approx")) for p in P]
         cols.append("本传单名计数")
     pdf.columns = cols
+    NC = cols[0]
     q1, q2 = st.columns([2, 1])
-    kw = q1.text_input("搜索", placeholder=f"姓名 / {ZI} / {PIAN}", label_visibility="collapsed", key="person_q")
+    kw = q1.text_input("搜索", placeholder=f"{NC} / {PZI} / {PIAN}", label_visibility="collapsed", key="person_q")
     bk = q2.multiselect(C["cat_label"], C["cat_order"], C["cat_order"], key="person_cat")
     pv = pdf[pdf[C["cat_label"]].isin(bk)]
     if kw:
-        mask = pv["姓名"].str.contains(kw, na=False) | pv[ZI].str.contains(kw, na=False) \
+        mask = pv[NC].str.contains(kw, na=False) | pv[PZI].str.contains(kw, na=False) \
             | pv[PIAN].str.contains(kw, na=False)
         pv = pv[mask]
-    st.caption(f"共 {len(pv)} 人")
+    st.caption(f"共 {len(pv)} {CU}")
     cfg = {U + "次": st.column_config.NumberColumn(format=U + "%d")}
     if has_approx:
         cfg["本传单名计数"] = st.column_config.CheckboxColumn(width="small")
