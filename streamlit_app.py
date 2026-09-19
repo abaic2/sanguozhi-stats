@@ -616,6 +616,10 @@ BOOKS = {
         "persons_caption": "「字·名号」列取自正文（第七十三回五虎大将封号为其要）；其外人等由对话笔法自动识别。"
                            "「出现次数」为正文连书此名之次数：本书多以字行，故「玄德」之于刘备、「关公」之于关羽皆多于本名，"
                            "其别称详见叁·称名统计，首见回目以直书此名为准。",
+        "race_gif": "sgyy_char_race.gif",
+        "race_title": "主要人物逐回出场（时间轴动画）",
+        "race_sub": "前十四位主要人物，条形为累计出场次数（正名与别称并计、长名优先占位不重复）；颜色分阵营，底部为六段时间轴。"
+                    "全片 79 秒、逐回推进。诸葛亮至第 42 回方 209 次，此后一路追至 1973；司马懿前 42 回仅 2 次，第 120 回落 321。",
         "source": "罗贯中《三国演义》白文全文（毛宗岗批评本一百二十回，不含评点），语料取自 GitHub 开源仓库 hunterhug/china-literary；"
                   "统计脚本逐字计数，多字词条为精确子串匹配。表字自「姓X名Y，字Z」及单名举字一类笔法提取，"
                   "五虎大将名单自第七十三回封号正文提取，年号纪年自正文所见「〔年号〕〔数〕年」提取；"
@@ -844,6 +848,12 @@ if TABS[2] in _SHOW:
     view = df[df[C["cat_label"]].isin(sel_cat) & df["类型"].isin(sel_type)]
     st.dataframe(view.sort_values(U + "次"), hide_index=True, use_container_width=True,
                  column_config={U + "次": st.column_config.NumberColumn(format=U + "%d")})
+
+    if C.get("race_gif"):                     # 逐回出场时间轴动画，仅配了该文件的书显示
+        st.subheader(C["race_title"])
+        st.image(os.path.join(os.path.dirname(os.path.abspath(__file__)), C["race_gif"]),
+                 use_container_width=True)
+        st.caption(C["race_sub"])
 
 # ============ 肆 全量人物 ============
 if TABS[3] in _SHOW:
