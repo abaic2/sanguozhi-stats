@@ -110,7 +110,7 @@ BOOKS = {
             ("前202", "垓下之围，项羽乌江自刎，汉兴"), ("前154", "七国之乱"), ("前138", "张骞凿空西域"),
             ("前119", "卫青霍去病漠北之战"), ("约前91", "司马迁《史记》成书"),
         ],
-        "type_options": ["帝王", "将相", "谋臣", "名将", "文士", "刺客", "游侠", "酷吏"],
+        "type_options": ["帝王", "将相", "谋臣", "名将", "名臣", "文士", "刺客", "游侠", "酷吏", "后妃"],
         "bios": [
             ("黄帝", "轩辕", "本纪", "帝王", 1, "五帝本纪"), ("秦始皇", "政", "本纪", "帝王", 6, "秦始皇本纪"),
             ("项羽", "籍", "本纪", "帝王", 7, "项羽本纪"), ("刘邦", "季", "本纪", "帝王", 8, "高祖本纪"),
@@ -137,6 +137,106 @@ BOOKS = {
         "persons_extract": "按列传/世家起首判断句（某某者，某地/某国人也，字某某 / 某某字某某 / 姓X讳X字Y）识别",
         "source": "司马迁《史记》白文全文（一百三十卷，含本纪·表·书·世家·列传，不含三家注），语料取自 GitHub 开源仓库 baojie/shiji-kb；统计脚本对零星繁体做常用字归一后逐字计数，多字词条为精确子串匹配。「立传人物类型」「大事年表」为整理样本；「肆 · 全量人物」由脚本按传记起首笔法自动识别，未经人工校勘，或有讹漏。",
     },
+    "红楼梦": {
+        "stats_file": "stats_hlm.json",
+        "h1": "红 楼 梦",
+        "sub": "曹雪芹 著 · 一百二十回 · 全文语料精确统计 · 733,553 汉字",
+        "cat_color": {"风月情浓": "#8c2f23", "烈火烹油": "#a67c00", "盛筵必散": "#b03a2e",
+                      "忽剌葳蕤": "#7a4b8f", "落片归大荒": "#6b5f4e"},
+        "cat_order": ["风月情浓", "烈火烹油", "盛筵必散", "忽剌葳蕤", "落片归大荒"],
+        "cat_label": "所属情局",
+        "book_suffix": "",
+        "unit": "回",
+        "total_juan": "120",
+        "juan_note": "风月情浓16 · 烈火烹油38 · 盛筵必散24 · 忽剌葳蕤22 · 落片归大荒20",
+        "struct_title": "五段情局结构",
+        "juan_sub": "以情节单元划分：顽石入世 · 省亲建园 · 抄检败象 · 黛玉夭逝 · 家亡人散",
+        "len_sub": "一百二十回逐回字数，按五段着色；悬停查看回目",
+        "structure": {
+            "x": ["风月情浓", "烈火烹油", "盛筵必散", "忽剌葳蕤", "落片归大荒"], "stacked": False,
+            "series": [{"name": "回数", "data": [16, 38, 24, 22, 20], "color": None}],
+        },
+        "cmp_title": "前八十回 / 后四十回 用字密度",
+        "cmp_color": {"前八十回": "#8c2f23", "后四十回": "#3b6b9b"},
+        "cmp_sub": "各部分前十高频字，单位「次/千字」，消除 80 回与 40 回的篇幅差异",
+        "guo_title": "主题字与关键概念",
+        "guo_sub": "玉 / 梦 / 情 / 泪 / 花 / 月 与「大观园」「太虚幻境」在全书的频次",
+        "type_title": "人物身份构成（样本归类）",
+        "type_pie": [("主子·爷奶", 14), ("奶奶·太太", 12), ("小姐·姑娘", 14),
+                     ("丫鬟·婢妾", 20), ("门客·清客", 8), ("庄仆·小厮", 10), ("僧道·方技", 6), ("乡宦·官员", 4)],
+        "timeline": [
+            ("第1回", "女娲补天遗石下凡，甄士隐梦中见通灵"), ("第3回", "林黛玉进京入荣国府，宝黛初见"),
+            ("第5回", "贾宝玉神游太虚幻境，阅金陵十二钗册"), ("第6回", "刘姥姥一进荣国府"),
+            ("第15回", "王熙凤弄权铁槛寺"), ("第17回", "大观园试才题对额"),
+            ("第18回", "元妃省亲，大观园极盛之始"), ("第23回", "共读西厢，牡丹亭曲警芳心"),
+            ("第27回", "黛玉葬花，吟《葬花吟》"), ("第33回", "宝玉挨打"),
+            ("第37回", "秋爽斋结海棠诗社"), ("第40回", "史太君两宴大观园"),
+            ("第45回", "金兰契互剖金兰语，钗黛冰释"), ("第46回", "鸳鸯女誓绝鸳鸯偶"),
+            ("第52回", "勇晴雯病补雀金裘"), ("第55回", "探春理家，兴利除弊"),
+            ("第63回", "寿怡红群芳开夜宴"), ("第64—66回", "贾琏偷娶尤二姨，尤三姐耻情归柳湘莲"),
+            ("第74回", "抄检大观园，司棋被逐"), ("第77回", "俏丫鬟抱屈夭风流，晴雯之死"),
+            ("第78回", "杜撰《芙蓉女儿诔》"), ("第83回", "元妃染恙"),
+            ("第90回", "薛姨妈作媒，宝蟾撒帐"), ("第94回", "贾母赏花妖，宝玉失落通灵玉"),
+            ("第97回", "林黛玉焚稿断痴情，薛宝钗出闺成大礼"), ("第98回", "苦绛珠魂归离恨天"),
+            ("第101回", "大观园查赌，贾府被议罪"), ("第103回", "贾雨村获罪，甄家被抄"),
+            ("第105回", "锦衣军查抄宁国府"), ("第107回", "宁国府抄家，贾母散余资"),
+            ("第110回", "史太君寿终归地府"), ("第113回", "妙玉遭劫，惜春决意出家"),
+            ("第118回", "贾兰中举，宝玉却尘缘"), ("第120回", "贾雨村归结红楼梦，甄士隐详说太虚情"),
+        ],
+        "tl_col": "回数",
+        "type_options": ["主角", "主子", "奶奶·太太", "小姐", "丫鬟", "优伶", "门客", "庄仆", "僧道", "乡宦·官员"],
+        "bios": [
+            ("贾宝玉", "怡红公子", "风月情浓", "主角", 2, "贾夫人仙逝扬州城 冷子兴演说荣国府"),
+            ("林黛玉", "潇湘妃子", "风月情浓", "小姐", 3, "金陵城起复贾雨村 荣国府收养林黛玉"),
+            ("薛宝钗", "蘅芜君", "烈火烹油", "小姐", 4, "薄命女偏逢薄命郎 葫芦僧乱判葫芦案"),
+            ("王熙凤", "凤辣子", "风月情浓", "奶奶·太太", 3, "金陵城起复贾雨村 荣国府收养林黛玉"),
+            ("贾母", "史太君", "风月情浓", "奶奶·太太", 3, "金陵城起复贾雨村 荣国府收养林黛玉"),
+            ("贾政", "存周", "风月情浓", "主子", 2, "贾夫人仙逝扬州城 冷子兴演说荣国府"),
+            ("元春", "贤德妃", "风月情浓", "主子", 17, "大观园试才题对额 怡红院迷路探曲折"),
+            ("探春", "蕉下客", "烈火烹油", "小姐", 3, "金陵城起复贾雨村 荣国府收养林黛玉"),
+            ("史湘云", "枕霞旧友", "烈火烹油", "小姐", 20, "王熙凤正言弹妒意 林黛玉俏语谑娇音"),
+            ("妙玉", "畸人", "烈火烹油", "僧道", 17, "大观园试才题对额 怡红院迷路探曲折"),
+            ("迎春", "二木头", "烈火烹油", "小姐", 3, "金陵城起复贾雨村 荣国府收养林黛玉"),
+            ("惜春", "藕榭", "烈火烹油", "小姐", 3, "金陵城起复贾雨村 荣国府收养林黛玉"),
+            ("王夫人", "太太", "风月情浓", "奶奶·太太", 3, "金陵城起复贾雨村 荣国府收养林黛玉"),
+            ("薛姨妈", "", "烈火烹油", "奶奶·太太", 4, "薄命女偏逢薄命郎 葫芦僧乱判葫芦案"),
+            ("李纨", "稻香老农", "烈火烹油", "奶奶·太太", 4, "薄命女偏逢薄命郎 葫芦僧乱判葫芦案"),
+            ("秦可卿", "兼美", "风月情浓", "奶奶·太太", 5, "开生面梦演红楼梦 立新场情传幻境情"),
+            ("晴雯", "", "烈火烹油", "丫鬟", 31, "撕扇子作千金一笑 因麒麟伏白首双星"),
+            ("袭人", "珍珠", "风月情浓", "丫鬟", 6, "贾宝玉初试云雨情 刘姥姥一进荣国府"),
+            ("麝月", "", "烈火烹油", "丫鬟", 21, "贤袭人娇嗔箴宝玉 俏平儿软语救贾琏"),
+            ("紫鹃", "", "烈火烹油", "丫鬟", 57, "慧紫鹃情辞试忙玉 慈姨妈爱语慰痴颦"),
+            ("平儿", "", "风月情浓", "丫鬟", 21, "贤袭人娇嗔箴宝玉 俏平儿软语救贾琏"),
+            ("鸳鸯", "", "烈火烹油", "丫鬟", 24, "醉金刚轻财尚义侠 痴女儿遗帕惹相思"),
+            ("香菱", "秋菱", "烈火烹油", "丫鬟", 1, "甄士隐梦幻识通灵 贾雨村风尘怀闺秀"),
+            ("芳官", "", "盛筵必散", "优伶", 36, "绣鸳鸯梦兆绛芸轩 识分定情悟梨香院"),
+            ("刘姥姥", "", "风月情浓", "庄仆", 6, "贾宝玉初试云雨情 刘姥姥一进荣国府"),
+            ("贾琏", "二爷", "风月情浓", "主子", 2, "贾夫人仙逝扬州城 冷子兴演说荣国府"),
+            ("贾珍", "", "风月情浓", "主子", 7, "送宫花周瑞叹英莲 谈肆业秦钟结宝玉"),
+            ("薛蟠", "呆霸王", "烈火烹油", "主子", 4, "薄命女偏逢薄命郎 葫芦僧乱判葫芦案"),
+            ("贾雨村", "时飞", "风月情浓", "乡宦·官员", 1, "甄士隐梦幻识通灵 贾雨村风尘怀闺秀"),
+            ("柳湘莲", "冷二郎", "盛筵必散", "门客", 66, "情小妹耻情归地府 冷二郎一冷入空门"),
+            ("贾瑞", "天祥", "风月情浓", "门客", 11, "庆寿辰宁府排家宴 见熙凤贾瑞起淫心"),
+            ("秦钟", "鲸卿", "风月情浓", "门客", 7, "送宫花周瑞叹英莲 谈肆业秦钟结宝玉"),
+            ("尤二姐", "二姨", "盛筵必散", "小姐", 63, "寿怡红群芳开夜宴 死金丹独艳理亲丧"),
+            ("尤三姐", "", "盛筵必散", "小姐", 63, "寿怡红群芳开夜宴 死金丹独艳理亲丧"),
+            ("甄士隐", "名费", "风月情浓", "乡宦·官员", 1, "甄士隐梦幻识通灵 贾雨村风尘怀闺秀"),
+            ("跛足道人", "", "风月情浓", "僧道", 1, "甄士隐梦幻识通灵 贾雨村风尘怀闺秀"),
+        ],
+        "len_label": "该回字数",
+        "zi_col": "别称·诗号", "pian_col": "相关回目", "person_pian_col": "相关回目",
+        "bios_head": "人物一览", "cat_head": "五段人物数 / 见「小名·表字」",
+        "sn_note": "仅计以姓相称者：{withSurname} / {total} 人。丫鬟、优伶（袭人、晴雯、紫鹃）首字是名而非姓，不入此图。",
+        "bios_note": "「五段情局」为情节单元划分；身份构成、大事年表、人物一览为整理样本",
+        "name_sub": "主要人物称名统计（姓名 / 别称·小名 / 诗号·尊称 堆叠，精确子串计数）",
+        "name_caption": "注：白话小说中「太太」「姑娘」一类尊称与常用词同形，堆叠段仅作称名口径参考；「凤姐儿」为「凤姐」的儿化形，悬停可见各变体明细。",
+        "zi_label": "见「小名·表字」", "zi_series_label": "其中见「小名·表字」",
+        "persons_extract": "按对话引导词（X笑道／说道／问道）回溯 2—4 字，以姓氏与红楼称名用字白名单锚定识别",
+        "persons_caption": "本书无「本传」概念：已并入「叁 · 称名统计」的主要人物不再重列，此处为其外的中次要人物。",
+        "source": "曹雪芹《红楼梦》白文全文（一百二十回，程甲本系，不含脂批与评点），语料取自 GitHub 开源仓库 xuyao00/hongloumeng；"
+                  "统计脚本逐字计数，多字词条为精确子串匹配。「五段情局」「人物身份构成」「大事年表」为整理样本；"
+                  "「肆 · 全量人物」由脚本按对话引导词与人名用字白名单自动识别，未经人工校勘，或有讹漏。",
+    },
 }
 
 _book_keys = list(BOOKS.keys())
@@ -145,6 +245,11 @@ book = st.radio("书籍", _book_keys, index=_book_keys.index(os.environ.get("SHI
 C = BOOKS[book]
 S = json.loads((HERE / C["stats_file"]).read_text(encoding="utf-8"))
 CC = C["cat_color"]
+CMP_C = {**CC, **C.get("cmp_color", {})}   # 对比图分组可与分类不同（红楼梦为前八十/后四十回）
+U = C.get("unit", "卷")          # 分篇单位：三国志/史记为「卷」，红楼梦为「回」
+ZI = C.get("zi_col", "字")       # 人物第二列：史书为「字」，白话小说为别称·诗号
+PIAN = C.get("pian_col", "传记篇名")
+PIAN2 = C.get("person_pian_col", "本传篇名")
 csuffix = lambda b: b + C["book_suffix"]
 
 st.markdown(
@@ -180,7 +285,7 @@ if TABS[0] in _SHOW:
     c[0].metric("汉字总数", FMT(m["totalChars"]), help="全文精确计数（不含标点）")
     c[1].metric("不同单字", FMT(m["uniqChars"]), help="字种数")
     c[2].metric("仅出现一次", FMT(m["hapax"]), help="生僻字/专名用字")
-    c[3].metric("总卷数", C["total_juan"], help=C["juan_note"])
+    c[3].metric(f"总{U}数", C["total_juan"], help=C["juan_note"])
     c[4].metric("句子总数", FMT(m["sentCount"]), help="按句读切分")
     c[5].metric("平均句长", m["avgSent"], help="字 / 句")
     c[6].metric("自动提取人物", FMT(S["personStats"]["total"]), help="见「肆 · 全量人物」")
@@ -189,7 +294,7 @@ if TABS[0] in _SHOW:
     left, right = st.columns([1, 2])
     st_ = C["structure"]
     with left:
-        st.subheader("卷帙结构")
+        st.subheader(C.get("struct_title", "卷帙结构"))
         if st_["stacked"]:
             series = [{"name": s["name"], "type": "bar", "stack": "t", "barWidth": 50,
                        "data": s["data"], "itemStyle": {"color": s["color"]},
@@ -204,20 +309,20 @@ if TABS[0] in _SHOW:
             "legend": {"bottom": 0},
             "grid": {"left": 50, "right": 20, "top": 30, "bottom": 50},
             "xAxis": {"type": "category", "data": st_["x"], **AXIS},
-            "yAxis": {"type": "value", "name": "卷", **AXIS},
+            "yAxis": {"type": "value", "name": U, **AXIS},
             "series": series,
         }, height="360px")
     with right:
-        st.subheader("卷幅分布（逐卷精确字数）")
+        st.subheader(f"{U}幅分布（逐{U}精确字数）")
         st.caption(C["len_sub"])
         pl = S["pianLens"]
-        pl_js = json.dumps([{"j": p["juan"], "t": p["title"], "l": p["len"]} for p in pl], ensure_ascii=False)
+        pl_js = json.dumps([{"j": U + str(p["juan"]), "t": p["title"], "l": p["len"]} for p in pl], ensure_ascii=False)
         st_echarts({
             "backgroundColor": "transparent",
             "tooltip": {"trigger": "axis", "formatter":
-                        "function(p){var d=" + pl_js + "[p[0].dataIndex];return '卷'+d.j+'《'+d.t+'》<br>'+d.l.toLocaleString()+' 字';}"},
+                        "function(p){var d=" + pl_js + "[p[0].dataIndex];return d.j+'《'+d.t+'》<br>'+d.l.toLocaleString()+' 字';}"},
             "grid": {"left": 60, "right": 20, "top": 30, "bottom": 40},
-            "xAxis": {"type": "category", "data": [p["juan"] for p in pl], "name": "卷次", **AXIS},
+            "xAxis": {"type": "category", "data": [p["juan"] for p in pl], "name": U + "次", **AXIS},
             "yAxis": {"type": "value", "name": "字数", **AXIS},
             "series": [{"type": "bar", "barWidth": "70%",
                         "data": [{"value": p["len"], "itemStyle": {"color": CC[p["book"]]}} for p in pl]}],
@@ -257,9 +362,9 @@ if TABS[1] in _SHOW:
             "legend": {"bottom": 0},
             "grid": {"left": 50, "right": 20, "top": 30, "bottom": 50},
             "xAxis": {"type": "category", "data": S["cmpChars"], "axisLabel": {"fontSize": 16}},
-            "yAxis": {"type": "value", **AXIS},
+            "yAxis": {"type": "value", "name": S.get("cmpUnits", "次数"), **AXIS},
             "series": [{"name": csuffix(s["book"]), "type": "bar", "data": s["data"],
-                        "itemStyle": {"color": CC[s["book"]]}} for s in S["cmpSeries"]],
+                        "itemStyle": {"color": CMP_C.get(s["book"], "#6b5f4e")}} for s in S["cmpSeries"]],
         }, height="480px")
 
     c5, c6 = st.columns(2)
@@ -288,15 +393,15 @@ if TABS[1] in _SHOW:
                         "label": {"show": True, "position": "top", "fontSize": 11}}],
         }, height="360px")
 
-    st.subheader("逐卷下钻 · 各卷自己的高频字")
-    titles = [f"卷{p['juan']}《{p['title']}》（{FMT(p['len'])}字）" for p in S["pianLens"]]
-    i = st.selectbox("选择卷次", range(len(titles)), format_func=lambda x: titles[x], label_visibility="collapsed")
+    st.subheader(f"逐{U}下钻 · 各{U}自己的高频字")
+    titles = [f"{U}{p['juan']}《{p['title']}》（{FMT(p['len'])}字）" for p in S["pianLens"]]
+    i = st.selectbox(f"选择{U}次", range(len(titles)), format_func=lambda x: titles[x], label_visibility="collapsed")
     p = S["pianLens"][i]
     st_echarts(hbar(p["top"], color=CC[p["book"]], height=440, fontsize=15), height="460px")
 
 # ============ 叁 人物 ============
 if TABS[2] in _SHOW:
-    st.subheader("人名出现统计（姓名 / 字 / 庙号·尊称 别名堆叠，精确子串计数）")
+    st.subheader(C.get("name_sub", "人名出现统计（姓名 / 字 / 庙号·尊称 别名堆叠，精确子串计数）"))
     rows = sorted(
         [{"name": n, "total": sum(d[1] for d in det), "detail": det} for n, det in S["nameCounts"]],
         key=lambda r: -r["total"])
@@ -305,7 +410,7 @@ if TABS[2] in _SHOW:
     series = []
     for seg in range(maxseg):
         series.append({
-            "name": "姓名" if seg == 0 else "别称",
+            "name": C.get("name_segs", ["姓名", "别称"])[min(seg, 1)],
             "type": "bar", "stack": "n", "barWidth": 15,
             "itemStyle": {"color": colors[seg % len(colors)]},
             "label": {"show": False},
@@ -323,7 +428,7 @@ if TABS[2] in _SHOW:
         "yAxis": {"type": "category", "inverse": True, "data": [r["name"] for r in rows], **AXIS},
         "series": series,
     }, height="560px")
-    st.caption("注：单字别称为全文子串口径，含同字非人名用例，仅供参考；悬停可见各变体明细。")
+    st.caption(C.get("name_caption", "注：单字别称为全文子串口径，含同字非人名用例，仅供参考；悬停可见各变体明细。"))
 
     c7, c8 = st.columns([1, 1])
     with c7:
@@ -340,18 +445,18 @@ if TABS[2] in _SHOW:
         }, height="400px")
     with c8:
         st.subheader("大事年表")
-        st.dataframe(pd.DataFrame(C["timeline"], columns=["年份", "事件"]), hide_index=True, height=380)
+        st.dataframe(pd.DataFrame(C["timeline"], columns=[C.get("tl_col", "年份"), "事件"]), hide_index=True, height=380)
 
-    st.subheader("传记一览")
+    st.subheader(C.get("bios_head", "传记一览"))
     LEN = {p["title"]: p["len"] for p in S["pianLens"]}
-    df = pd.DataFrame(C["bios"], columns=["姓名", "字", C["cat_label"], "类型", "卷次", "传记篇名"])
-    df["本传字数"] = df["传记篇名"].map(LEN)
+    df = pd.DataFrame(C["bios"], columns=["姓名", ZI, C["cat_label"], "类型", U + "次", PIAN])
+    df[C.get("len_label", "本传字数")] = df[PIAN].map(LEN)
     f1, f2 = st.columns(2)
     sel_cat = f1.multiselect(C["cat_label"], C["cat_order"], C["cat_order"], key="bio_cat")
     sel_type = f2.multiselect("类型", C["type_options"], C["type_options"], key="bio_type")
     view = df[df[C["cat_label"]].isin(sel_cat) & df["类型"].isin(sel_type)]
-    st.dataframe(view.sort_values("卷次"), hide_index=True, use_container_width=True,
-                 column_config={"卷次": st.column_config.NumberColumn(format="卷%d")})
+    st.dataframe(view.sort_values(U + "次"), hide_index=True, use_container_width=True,
+                 column_config={U + "次": st.column_config.NumberColumn(format=U + "%d")})
 
 # ============ 肆 全量人物 ============
 if TABS[3] in _SHOW:
@@ -359,7 +464,7 @@ if TABS[3] in _SHOW:
     PS = S["personStats"]
     c = st.columns(4)
     c[0].metric("自动提取人物", FMT(PS["total"]), help=C["persons_extract"])
-    c[1].metric("见「字」记载", FMT(PS["withZi"]), help=f"占 {PS['withZi'] * 100 // max(PS['total'],1)}%")
+    c[1].metric(C.get("zi_label", "见「字」记载"), FMT(PS["withZi"]), help=f"占 {PS['withZi'] * 100 // max(PS['total'],1)}%")
     c[2].metric(" · ".join(csuffix(b) for b, _ in PS["byBook"]), " · ".join(FMT(v) for _, v in PS["byBook"]))
     c[3].metric("第一大姓", f"{PS['surnames'][0][0]} 氏", help=f"{PS['surnames'][0][1]} 人")
 
@@ -377,8 +482,10 @@ if TABS[3] in _SHOW:
                         "itemStyle": {"color": "#a67c00", "borderRadius": [6, 6, 0, 0]},
                         "label": {"show": True, "position": "top", "fontSize": 11}}],
         }, height="440px")
+        if C.get("sn_note") and PS.get("withSurname") is not None:
+            st.caption(C["sn_note"].format(**PS))
     with rgt:
-        st.subheader(f"分{C['cat_label']}人物数")
+        st.subheader(C.get("cat_head", f"分{C['cat_label']}人物数"))
         st_echarts({
             "backgroundColor": "transparent",
             "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
@@ -389,7 +496,7 @@ if TABS[3] in _SHOW:
             "series": [
                 {"name": "提取人物", "type": "bar", "barWidth": 44, "label": {"show": True, "position": "top"},
                  "data": [{"value": x[1], "itemStyle": {"color": CC[x[0]]}} for x in PS["byBook"]]},
-                {"name": "其中见「字」", "type": "line", "symbol": "circle", "symbolSize": 8,
+                {"name": C.get("zi_series_label", "其中见「字」"), "type": "line", "symbol": "circle", "symbolSize": 8,
                  "lineStyle": {"color": "#6b5f4e"}, "itemStyle": {"color": "#6b5f4e"},
                  "data": [sum(1 for p in P if p["book"] == b and p["zi"]) for b, _ in PS["byBook"]]},
             ],
@@ -397,14 +504,14 @@ if TABS[3] in _SHOW:
 
     st.subheader("出现频次 Top 30 人物")
     top = P[:30]
-    tip = json.dumps([{"n": p["name"], "z": p["zi"], "j": p["juan"], "t": p["title"],
+    tip = json.dumps([{"n": p["name"], "z": p["zi"], "j": U + str(p["juan"]), "t": p["title"],
                        "c": p["count"], "a": bool(p["approx"])} for p in top], ensure_ascii=False)
     st_echarts({
         "backgroundColor": "transparent",
         "tooltip": {"trigger": "axis", "formatter":
                     "function(p){var d=" + tip + "[p[0].dataIndex];"
                     "return '<b>'+d.n+'</b>'+(d.z?'，字'+d.z:'')+'<br>出现 '+d.c+' 次'"
-                    "+(d.a?'（含本传内单名称呼）':'')+'<br>卷'+d.j+'《'+d.t+'》';}"},
+                    "+(d.a?'（含本传内单名称呼）':'')+'<br>'+d.j+'《'+d.t+'》';}"},
         "grid": {"left": 90, "right": 70, "top": 10, "bottom": 30},
         "xAxis": {"type": "value", **AXIS},
         "yAxis": {"type": "category", "inverse": True,
@@ -417,21 +524,27 @@ if TABS[3] in _SHOW:
     st.caption(C["persons_caption"])
 
     st.subheader(f"人物索引（{FMT(PS['total'])} 人）")
-    pdf = pd.DataFrame(P)[["name", "zi", "book", "juan", "title", "count", "approx"]]
-    pdf.columns = ["姓名", "字", C["cat_label"], "卷次", "本传篇名", "出现次数", "本传单名计数"]
+    pdf = pd.DataFrame(P)[["name", "zi", "book", "juan", "title", "count"]]
+    cols = ["姓名", ZI, C["cat_label"], U + "次", PIAN2, "出现次数"]
+    has_approx = any(bool(p["approx"]) for p in P)
+    if has_approx:                      # 近似计数仅对史书「单名称呼」口径有意义
+        pdf["approx"] = [bool(p["approx"]) for p in P]
+        cols.append("本传单名计数")
+    pdf.columns = cols
     q1, q2 = st.columns([2, 1])
-    kw = q1.text_input("搜索", placeholder="姓名 / 字 / 传记篇名", label_visibility="collapsed", key="person_q")
+    kw = q1.text_input("搜索", placeholder=f"姓名 / {ZI} / {PIAN}", label_visibility="collapsed", key="person_q")
     bk = q2.multiselect(C["cat_label"], C["cat_order"], C["cat_order"], key="person_cat")
     pv = pdf[pdf[C["cat_label"]].isin(bk)]
     if kw:
-        mask = pv["姓名"].str.contains(kw, na=False) | pv["字"].str.contains(kw, na=False) \
-            | pv["本传篇名"].str.contains(kw, na=False)
+        mask = pv["姓名"].str.contains(kw, na=False) | pv[ZI].str.contains(kw, na=False) \
+            | pv[PIAN].str.contains(kw, na=False)
         pv = pv[mask]
     st.caption(f"共 {len(pv)} 人")
+    cfg = {U + "次": st.column_config.NumberColumn(format=U + "%d")}
+    if has_approx:
+        cfg["本传单名计数"] = st.column_config.CheckboxColumn(width="small")
     st.dataframe(pv.sort_values("出现次数", ascending=False), hide_index=True,
-                 use_container_width=True, height=560,
-                 column_config={"卷次": st.column_config.NumberColumn(format="卷%d"),
-                                "本传单名计数": st.column_config.CheckboxColumn(width="small")})
+                 use_container_width=True, height=560, column_config=cfg)
 
 st.divider()
 st.caption("数据来源：" + C["source"])
